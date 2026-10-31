@@ -103,6 +103,10 @@ export function capitalizeFirst(value: string): string {
   return value.charAt(0).toLocaleUpperCase() + value.slice(1);
 }
 
+export function lowerFirst(value: string): string {
+  return value.charAt(0).toLocaleLowerCase() + value.slice(1);
+}
+
 export function formatCalendarDate(
   date: CalendarDate,
   locale: string,
@@ -125,6 +129,14 @@ export function formatTime(time: string, locale: string): string {
     minute: "2-digit",
     timeZone: "UTC",
   }).format(new Date(Date.UTC(2000, 0, 1, hours, minutes)));
+}
+
+export function formatSpokenTime(time: string, locale: string): string {
+  if (!locale.startsWith("pt")) return formatTime(time, locale);
+  const [hours, minutes] = time.split(":").map(Number);
+  return minutes === 0
+    ? `${hours}h`
+    : `${hours}h${String(minutes).padStart(2, "0")}`;
 }
 
 export function formatWeekday(weekday: number, locale: string): string {

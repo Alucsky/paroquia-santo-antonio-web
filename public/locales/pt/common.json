@@ -57,7 +57,14 @@
   },
   "upcoming": {
     "today": "Hoje",
-    "tomorrow": "Amanhã"
+    "tomorrow": "Amanhã",
+    "eyebrow": "Próxima missa na Matriz",
+    "at": "às",
+    "then": "Depois,",
+    "dayAt": "{{day}} às {{time}}",
+    "and": " e ",
+    "allTimes": "Todos os horários",
+    "dayAtTitled": "{{day}} às {{time}}, {{title}}"
   },
   "celebrations": {
     "sunday-morning-mass": {
