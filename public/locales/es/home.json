@@ -43,7 +43,9 @@
         "title": "Secretaría",
         "description": "Habla directamente con la secretaría parroquial por WhatsApp."
       }
-    }
+    },
+    "open": "Ver más",
+    "openWhatsapp": "Abrir WhatsApp"
   },
   "patron": {
     "eyebrow": "Nuestro patrono",

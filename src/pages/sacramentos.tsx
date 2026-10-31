@@ -104,11 +104,12 @@ export default function SacramentsPage() {
           </Reveal>
           <SimpleGrid
             columns={{ base: 1, sm: 2, lg: 4 }}
-            gap={{ base: "3", md: "5" }}
+            gap={{ base: "6", md: "8" }}
           >
             {otherSacraments.map(({ key, icon, phone }, index) => (
               <Reveal key={key} delay={index}>
                 <InfoCard
+                  index={index}
                   icon={icon}
                   title={t(`others.items.${key}.title`)}
                   data-testid="other-sacrament"

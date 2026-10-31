@@ -30,11 +30,12 @@ export function OfficeHours() {
   return (
     <SimpleGrid
       columns={{ base: 1, md: 2 }}
-      gap={{ base: "3", md: "5" }}
+      gap={{ base: "6", md: "8" }}
       data-testid="office-hours"
     >
-      {blocks.map(({ key, icon, data }) => (
+      {blocks.map(({ key, icon, data }, index) => (
         <InfoCard
+          index={index}
           key={key}
           icon={icon}
           eyebrow={formatWeekdayRange(data.weekdays, intlLocale)}

@@ -43,7 +43,9 @@
         "title": "Parish office",
         "description": "Talk directly to the parish office on WhatsApp."
       }
-    }
+    },
+    "open": "Learn more",
+    "openWhatsapp": "Open WhatsApp"
   },
   "patron": {
     "eyebrow": "Our patron saint",

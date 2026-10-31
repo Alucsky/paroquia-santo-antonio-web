@@ -95,11 +95,16 @@ export function CommunityDirectory() {
       {visible.length > 0 ? (
         <SimpleGrid
           columns={{ base: 1, sm: 2, lg: 3 }}
-          gap={{ base: "3", md: "5" }}
+          gap={{ base: "8", md: "10" }}
+          px={{ base: "2", md: "0" }}
           alignItems="start"
         >
-          {visible.map((community) => (
-            <CommunityCard key={community.slug} community={community} />
+          {visible.map((community, index) => (
+            <CommunityCard
+              key={community.slug}
+              community={community}
+              index={index}
+            />
           ))}
         </SimpleGrid>
       ) : (

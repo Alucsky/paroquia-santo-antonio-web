@@ -1,5 +1,5 @@
 import { defineConfig } from "@chakra-ui/react";
-import { gold, terracotta, umber } from "./color-palettes";
+import { gold, parchment, terracotta, umber } from "./color-palettes";
 import { buttonRecipe } from "./recipes/button";
 
 const scale = (palette: Record<number, string>) =>
@@ -20,6 +20,7 @@ export const themeConfig = defineConfig({
         terracotta: scale(terracotta),
         gold: scale(gold),
         umber: scale(umber),
+        parchment: { value: parchment },
       },
       fonts: {
         heading: { value: "var(--font-fraunces), Georgia, serif" },
@@ -69,6 +70,10 @@ export const themeConfig = defineConfig({
           subtle: { value: "{colors.umber.100}" },
           muted: { value: "{colors.umber.200}" },
           card: { value: "white" },
+          holy: { value: "{colors.parchment}" },
+        },
+        frame: {
+          gold: { value: "{colors.gold.500}" },
         },
         line: {
           hairline: { value: "{colors.umber.200}" },

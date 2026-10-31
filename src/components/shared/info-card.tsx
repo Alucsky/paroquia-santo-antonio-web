@@ -1,9 +1,12 @@
-import { Box, Heading, Stack, type StackProps, Text } from "@chakra-ui/react";
+import type { BoxProps } from "@chakra-ui/react";
 import type { ReactNode } from "react";
 import type { IconType } from "react-icons";
+import { HolyCard } from "@/components/shared/holy-card";
+import { HolyCardMedallion } from "@/components/shared/holy-card-medallion";
 
-type Props = Omit<StackProps, "title"> & {
+type Props = Omit<BoxProps, "title"> & {
   icon?: IconType;
+  index?: number;
   eyebrow?: string;
   title: ReactNode;
   children?: ReactNode;
@@ -11,52 +14,28 @@ type Props = Omit<StackProps, "title"> & {
 
 export function InfoCard({
   icon: CardIcon,
+  index = 0,
   eyebrow,
   title,
   children,
   ...rest
 }: Props) {
   return (
-    <Stack
-      gap="4"
-      bg="paper.card"
-      borderWidth="1px"
-      borderColor="line.hairline"
-      rounded="card"
-      p={{ base: "5", md: "7" }}
-      h="full"
+    <HolyCard
+      index={index}
+      mediaSize="sm"
+      media={
+        CardIcon ? (
+          <HolyCardMedallion tone={index % 2 === 0 ? "brand" : "ink"}>
+            <CardIcon size="24" aria-hidden="true" />
+          </HolyCardMedallion>
+        ) : undefined
+      }
+      eyebrow={eyebrow}
+      title={title}
       {...rest}
     >
-      {CardIcon ? (
-        <Box
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-          boxSize="11"
-          rounded="full"
-          bg="brand.subtle"
-          color="brand.fg"
-        >
-          <CardIcon size="20" aria-hidden="true" />
-        </Box>
-      ) : null}
-      <Stack gap="1">
-        {eyebrow ? (
-          <Text textStyle="eyebrow" color="brand.fg">
-            {eyebrow}
-          </Text>
-        ) : null}
-        <Heading
-          as="h3"
-          fontFamily="heading"
-          fontWeight="600"
-          fontSize={{ base: "xl", md: "2xl" }}
-          letterSpacing="-0.02em"
-        >
-          {title}
-        </Heading>
-      </Stack>
       {children}
-    </Stack>
+    </HolyCard>
   );
 }

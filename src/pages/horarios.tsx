@@ -105,10 +105,11 @@ export default function SchedulePage() {
               mb={{ base: "8", md: "12" }}
             />
           </Reveal>
-          <SimpleGrid columns={{ base: 1, md: 2 }} gap={{ base: "3", md: "5" }}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} gap={{ base: "6", md: "8" }}>
             {monthly.map((item, index) => (
               <Reveal key={item.id} delay={index}>
                 <InfoCard
+                  index={index}
                   icon={
                     item.kind === "adoration" ? LuSparkles : LuCalendarHeart
                   }
