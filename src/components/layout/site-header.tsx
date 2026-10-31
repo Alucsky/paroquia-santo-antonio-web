@@ -25,8 +25,11 @@ export function SiteHeader() {
       position="sticky"
       top="0"
       zIndex="sticky"
-      bg="rgba(250, 247, 242, 0.86)"
-      backdropFilter="saturate(160%) blur(14px)"
+      bg={{
+        base: "rgba(250, 247, 242, 0.97)",
+        md: "rgba(250, 247, 242, 0.86)",
+      }}
+      backdropFilter={{ md: "saturate(160%) blur(14px)" }}
       borderBottomWidth="1px"
       borderColor={scrolled ? "line.hairline" : "transparent"}
       transition="border-color 0.2s"

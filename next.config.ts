@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
-  i18n,
+  i18n: { ...i18n, localeDetection: false },
 };
 
 export default nextConfig;

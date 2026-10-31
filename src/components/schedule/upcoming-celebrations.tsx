@@ -74,7 +74,15 @@ export function UpcomingCelebrations({ limit = 3, tone = "light" }: Props) {
                       boxSize="2"
                       rounded="full"
                       bg="terracotta.400"
-                      animation="pulseDot 2s infinite"
+                      position="relative"
+                      _after={{
+                        content: '""',
+                        position: "absolute",
+                        inset: "0",
+                        rounded: "full",
+                        bg: "inherit",
+                        animation: "pulseRing 2s ease-out infinite",
+                      }}
                       flexShrink="0"
                     />
                   ) : null}
