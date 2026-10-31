@@ -162,7 +162,7 @@ export function SiteFooter() {
           <HStack gap="3">
             <Box bg="white" rounded="full" p="1" flexShrink="0">
               <Image
-                src="/images/marca/brasao-diocese.png"
+                src="/images/brand/diocese-coat-of-arms.png"
                 alt=""
                 width={32}
                 height={32}

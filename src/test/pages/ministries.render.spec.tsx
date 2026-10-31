@@ -1,10 +1,10 @@
 import { screen } from "@testing-library/react";
-import MinistriesPage from "@/pages/pastorais";
+import MinistriesPage from "@/pages/ministries";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("Ministries page", () => {
   it("should be able to render the main heading", () => {
-    renderWithProviders(<MinistriesPage />, { pathname: "/pastorais" });
+    renderWithProviders(<MinistriesPage />, { pathname: "/ministries" });
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
       "20 jeitos de servir.",

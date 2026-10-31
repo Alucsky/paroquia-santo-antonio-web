@@ -6,6 +6,7 @@ import { LuArrowRight } from "react-icons/lu";
 import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { saintPortrait } from "@/content/gallery";
+import { routes } from "@/content/routes";
 
 export function PatronFeature() {
   const { t } = useTranslation("home");
@@ -84,7 +85,7 @@ export function PatronFeature() {
               </Box>
               <Box>
                 <Button asChild variant="light" size="lg">
-                  <NextLink href="/santo-antonio">
+                  <NextLink href={routes.saintAnthony}>
                     {t("patron.action")}
                     <LuArrowRight aria-hidden="true" />
                   </NextLink>

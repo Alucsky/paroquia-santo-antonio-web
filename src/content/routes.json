@@ -1,0 +1,9 @@
+{
+  "schedule": { "page": "/schedule", "path": "/horarios" },
+  "sacraments": { "page": "/sacraments", "path": "/sacramentos" },
+  "saintAnthony": { "page": "/saint-anthony", "path": "/santo-antonio" },
+  "communities": { "page": "/communities", "path": "/comunidades" },
+  "ministries": { "page": "/ministries", "path": "/pastorais" },
+  "parish": { "page": "/parish", "path": "/paroquia" },
+  "contact": { "page": "/contact", "path": "/contato" }
+}

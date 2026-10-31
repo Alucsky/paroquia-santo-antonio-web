@@ -12,14 +12,14 @@ Vitest + Testing Library (`react`, `jest-dom`, `user-event`) sobre `jsdom`. Conf
 ## Onde o spec mora
 
 - **Co-locado** ao lado do arquivo: `community-card.tsx` → `community-card.spec.tsx`.
-- **Páginas são a exceção:** `src/test/pages/<rota>.render.spec.tsx`. Um `.spec.tsx` dentro de `src/pages/` viraria rota.
+- **Páginas são a exceção:** `src/test/pages/<página>.render.spec.tsx` (`schedule.render.spec.tsx`). Um `.spec.tsx` dentro de `src/pages/` viraria rota.
 
 ## Render
 
-Use `renderWithProviders` (`@/test/render-with-providers`). Ele monta o Chakra e uma instância **real** do i18next com as traduções de `public/locales/<locale>`, e configura o roteador simulado (`pathname`, `locale`).
+Use `renderWithProviders` (`@/test/render-with-providers`). Ele monta o Chakra e uma instância **real** do i18next com as traduções de `public/locales/<locale>`, e configura o roteador simulado (`pathname` com o nome interno da página, como `/schedule`, e `locale`).
 
 ```tsx
-renderWithProviders(<CommunityDirectory />, { locale: "pt", pathname: "/comunidades" });
+renderWithProviders(<CommunityDirectory />, { locale: "pt", pathname: "/communities" });
 ```
 
 ## Consultar o DOM

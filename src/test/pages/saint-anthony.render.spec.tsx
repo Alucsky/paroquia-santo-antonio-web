@@ -1,10 +1,10 @@
 import { screen } from "@testing-library/react";
-import SaintAnthonyPage from "@/pages/santo-antonio";
+import SaintAnthonyPage from "@/pages/saint-anthony";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("Saint Anthony page", () => {
   it("should be able to render the main heading", () => {
-    renderWithProviders(<SaintAnthonyPage />, { pathname: "/santo-antonio" });
+    renderWithProviders(<SaintAnthonyPage />, { pathname: "/saint-anthony" });
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
       "Santo Antônio de Pádua",

@@ -3,6 +3,7 @@ import NextLink from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { celebrations } from "@/content/celebrations";
+import { routes } from "@/content/routes";
 import { useNow } from "@/hooks/use-now";
 import { toIntlLocale } from "@/lib/i18n";
 import {
@@ -152,7 +153,7 @@ export function NextCelebration() {
         _hover={{ color: "white", textDecoration: "none" }}
         w="fit-content"
       >
-        <NextLink href="/horarios">{t("upcoming.allTimes")} →</NextLink>
+        <NextLink href={routes.schedule}>{t("upcoming.allTimes")} →</NextLink>
       </Link>
     </Stack>
   );

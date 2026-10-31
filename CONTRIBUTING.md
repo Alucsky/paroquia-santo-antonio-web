@@ -5,7 +5,7 @@ Obrigado por querer ajudar o site da Paróquia Santo Antônio de Pádua!
 ## Fluxo
 
 1. Faça um fork (ou, se tiver acesso, crie uma branch a partir da `main`).
-2. Nomeie a branch pelo tipo da mudança: `content/horarios-natal`, `feat/pagina-avisos`, `fix/menu-mobile`.
+2. Nomeie a branch pelo tipo da mudança: `content/christmas-schedule`, `feat/announcements-page`, `fix/menu-mobile`.
 3. Faça a mudança e rode localmente:
    ```bash
    npm run lint

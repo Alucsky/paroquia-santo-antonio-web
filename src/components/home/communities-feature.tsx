@@ -16,6 +16,7 @@ import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { communities } from "@/content/communities";
 import { ministries } from "@/content/ministries";
+import { routes } from "@/content/routes";
 
 export function CommunitiesFeature() {
   const { t } = useTranslation("home");
@@ -24,14 +25,14 @@ export function CommunitiesFeature() {
     {
       key: "communities",
       value: communities.filter((item) => item.kind === "community").length,
-      href: "/comunidades",
+      href: routes.communities,
     },
     {
       key: "neighborhoods",
       value: communities.filter((item) => item.kind === "neighborhood").length,
-      href: "/comunidades",
+      href: routes.communities,
     },
-    { key: "ministries", value: ministries.length, href: "/pastorais" },
+    { key: "ministries", value: ministries.length, href: routes.ministries },
   ];
 
   return (
@@ -54,13 +55,13 @@ export function CommunitiesFeature() {
             />
             <Flex gap="3" mt="8" wrap="wrap">
               <Button asChild variant="ink">
-                <NextLink href="/comunidades">
+                <NextLink href={routes.communities}>
                   {t("community.communitiesAction")}
                   <LuArrowRight aria-hidden="true" />
                 </NextLink>
               </Button>
               <Button asChild variant="outline">
-                <NextLink href="/pastorais">
+                <NextLink href={routes.ministries}>
                   {t("community.ministriesAction")}
                 </NextLink>
               </Button>

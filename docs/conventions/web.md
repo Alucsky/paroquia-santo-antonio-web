@@ -8,7 +8,8 @@ Next.js 15 (Pages Router, SSG) · React 19 · TypeScript estrito · Chakra UI v3
 
 - Arquivos em **kebab-case**, inclusive componentes (`community-card.tsx`) e hooks (`use-now.ts`). As exceções são os arquivos especiais do Next (`_app.tsx`, `_document.tsx`, `404.tsx`, `500.tsx`).
 - Identificadores em **inglês**, por extenso, sem abreviação. Componentes em `PascalCase`, hooks `useX`.
-- Rotas em português, porque são URLs públicas (`/horarios`, `/comunidades`).
+- Código 100% em inglês: arquivos, pastas, identificadores, chaves de tradução, `data-testid` e nomes de imagens. Português só nos textos de `public/locales/pt/` e nos nomes próprios de `src/content/`.
+- URLs públicas continuam em português. A página tem nome em inglês (`src/pages/schedule.tsx`), e `src/content/routes.json` liga a página ao caminho público (`/horarios`) com um *rewrite*. O caminho interno (`/schedule`) redireciona para o público. No código, use `routes.schedule` e nunca escreva o caminho à mão (veja o ADR 0007).
 - Componentes com regra de página vão em `src/components/<contexto>/`. Os reutilizáveis vão em `src/components/shared/`.
 - `src/components/ui/` é o kit gerado pelo Chakra: não editar à mão e não colocar `data-testid`.
 

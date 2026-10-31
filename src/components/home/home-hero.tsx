@@ -16,6 +16,7 @@ import { LuArrowRight, LuMapPin } from "react-icons/lu";
 import { NextCelebration } from "@/components/home/next-celebration";
 import { churchImages } from "@/content/gallery";
 import { parish } from "@/content/parish";
+import { routes } from "@/content/routes";
 import { toMapsLink } from "@/utils/contact-links";
 
 const sharedImageProps = {
@@ -121,7 +122,7 @@ export function HomeHero() {
               style={{ "--intro-delay": "1.32s" } as CSSProperties}
             >
               <Button asChild size="lg" variant="solid">
-                <NextLink href="/horarios">
+                <NextLink href={routes.schedule}>
                   {t("hero.primaryAction")}
                   <LuArrowRight aria-hidden="true" />
                 </NextLink>

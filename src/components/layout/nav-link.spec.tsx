@@ -1,22 +1,25 @@
 import { screen } from "@testing-library/react";
 import { isActivePath, NavLink } from "@/components/layout/nav-link";
+import { routes } from "@/content/routes";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("NavLink", () => {
   it("should be able to detect the active path", () => {
     expect(isActivePath("/", "/")).toBe(true);
-    expect(isActivePath("/horarios", "/")).toBe(false);
-    expect(isActivePath("/comunidades/x", "/comunidades")).toBe(true);
-    expect(isActivePath("/contato", "/comunidades")).toBe(false);
+    expect(isActivePath(routes.schedule, "/")).toBe(false);
+    expect(isActivePath(`${routes.communities}/x`, routes.communities)).toBe(
+      true,
+    );
+    expect(isActivePath(routes.contact, routes.communities)).toBe(false);
   });
 
   it("should be able to mark the current page link", () => {
     renderWithProviders(
       <>
-        <NavLink href="/horarios">Horários</NavLink>
-        <NavLink href="/contato">Contato</NavLink>
+        <NavLink href={routes.schedule}>Horários</NavLink>
+        <NavLink href={routes.contact}>Contato</NavLink>
       </>,
-      { pathname: "/horarios" },
+      { pathname: "/schedule" },
     );
 
     expect(screen.getByRole("link", { name: "Horários" })).toHaveAttribute(

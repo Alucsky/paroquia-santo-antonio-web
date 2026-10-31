@@ -23,6 +23,7 @@ import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Seo } from "@/components/shared/seo";
 import { parish } from "@/content/parish";
+import { sacramentAnchors } from "@/content/routes";
 import { withTranslations } from "@/lib/static-translations";
 import { toWhatsappLink } from "@/utils/contact-links";
 
@@ -50,13 +51,21 @@ export default function SacramentsPage() {
       >
         <HStack gap="3" wrap="wrap">
           {[
-            { href: "#batismo", label: t("baptism.title"), icon: LuBaby },
             {
-              href: "#matrimonio",
+              href: `#${sacramentAnchors.baptism}`,
+              label: t("baptism.title"),
+              icon: LuBaby,
+            },
+            {
+              href: `#${sacramentAnchors.marriage}`,
               label: t("marriage.title"),
               icon: LuHeartHandshake,
             },
-            { href: "#outros", label: t("others.eyebrow"), icon: LuCross },
+            {
+              href: `#${sacramentAnchors.others}`,
+              label: t("others.eyebrow"),
+              icon: LuCross,
+            },
           ].map(({ href, label, icon: AnchorIcon }) => (
             <Link
               key={href}
@@ -84,12 +93,16 @@ export default function SacramentsPage() {
         </HStack>
       </PageHero>
 
-      <SacramentSection id="batismo" sacrament="baptism" />
-      <SacramentSection id="matrimonio" sacrament="marriage" tone="subtle" />
+      <SacramentSection id={sacramentAnchors.baptism} sacrament="baptism" />
+      <SacramentSection
+        id={sacramentAnchors.marriage}
+        sacrament="marriage"
+        tone="subtle"
+      />
 
       <Box
         as="section"
-        id="outros"
+        id={sacramentAnchors.others}
         py={{ base: "16", md: "24" }}
         scrollMarginTop="20"
       >

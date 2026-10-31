@@ -2,6 +2,7 @@ import { HStack, Link } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
+import { usePublicPath } from "@/hooks/use-public-path";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 type Props = {
@@ -10,7 +11,8 @@ type Props = {
 
 export function LanguageSwitcher({ tone = "dark" }: Props) {
   const { t } = useTranslation("common");
-  const { asPath, locale: currentLocale } = useRouter();
+  const { locale: currentLocale } = useRouter();
+  const path = usePublicPath();
 
   return (
     <HStack
@@ -47,12 +49,7 @@ export function LanguageSwitcher({ tone = "dark" }: Props) {
               bg: tone === "dark" ? "paper.subtle" : "whiteAlpha.200",
             }}
           >
-            <NextLink
-              href={asPath}
-              locale={locale}
-              scroll={false}
-              lang={locale}
-            >
+            <NextLink href={path} locale={locale} scroll={false} lang={locale}>
               <span aria-hidden="true">{locale.toUpperCase()}</span>
               <span className="sr-only">{t(`language.names.${locale}`)}</span>
             </NextLink>

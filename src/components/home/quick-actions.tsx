@@ -12,6 +12,7 @@ import { HolyCard } from "@/components/shared/holy-card";
 import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { parish } from "@/content/parish";
+import { routes, sacramentLink } from "@/content/routes";
 import { toWhatsappLink } from "@/utils/contact-links";
 
 type QuickAction = {
@@ -24,23 +25,23 @@ type QuickAction = {
 const quickActions: QuickAction[] = [
   {
     key: "schedule",
-    href: "/horarios",
-    image: "/images/igreja/interior-nave.jpg",
+    href: routes.schedule,
+    image: "/images/church/interior-nave.jpg",
   },
   {
     key: "baptism",
-    href: "/sacramentos#batismo",
-    image: "/images/vida-paroquial/batismo.jpg",
+    href: sacramentLink("baptism"),
+    image: "/images/parish-life/baptism.jpg",
   },
   {
     key: "wedding",
-    href: "/sacramentos#matrimonio",
-    image: "/images/igreja/altar-celebracao.jpg",
+    href: sacramentLink("marriage"),
+    image: "/images/church/altar-celebration.jpg",
   },
   {
     key: "secretary",
     href: toWhatsappLink(parish.contact.whatsapp),
-    image: "/images/vida-paroquial/ministros.jpg",
+    image: "/images/parish-life/ministers.jpg",
     external: true,
   },
 ];

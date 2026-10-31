@@ -1,10 +1,10 @@
 import { screen } from "@testing-library/react";
-import ParishPage from "@/pages/paroquia";
+import ParishPage from "@/pages/parish";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("Parish page", () => {
   it("should be able to render the main heading", () => {
-    renderWithProviders(<ParishPage />, { pathname: "/paroquia" });
+    renderWithProviders(<ParishPage />, { pathname: "/parish" });
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
       "Uma história que começou com a fé de quem chegou primeiro.",
