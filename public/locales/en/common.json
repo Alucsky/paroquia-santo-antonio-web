@@ -57,7 +57,14 @@
   },
   "upcoming": {
     "today": "Today",
-    "tomorrow": "Tomorrow"
+    "tomorrow": "Tomorrow",
+    "eyebrow": "Next Mass at the main church",
+    "at": "at",
+    "then": "Then",
+    "dayAt": "{{day}} at {{time}}",
+    "and": " and ",
+    "allTimes": "All Mass times",
+    "dayAtTitled": "{{day}} at {{time}}, {{title}}"
   },
   "celebrations": {
     "sunday-morning-mass": {

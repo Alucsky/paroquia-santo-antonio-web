@@ -162,3 +162,12 @@ describe("upcoming celebrations", () => {
     );
   });
 });
+
+describe("formatSpokenTime", () => {
+  it("should be able to write times the Brazilian way", async () => {
+    const { formatSpokenTime } = await import("@/utils/upcoming-celebrations");
+    expect(formatSpokenTime("08:30", "pt-BR")).toBe("8h30");
+    expect(formatSpokenTime("19:00", "pt-BR")).toBe("19h");
+    expect(formatSpokenTime("19:00", "en-US")).toBe("7:00 PM");
+  });
+});

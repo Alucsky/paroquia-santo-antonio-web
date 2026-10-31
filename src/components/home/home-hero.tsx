@@ -13,7 +13,7 @@ import NextLink from "next/link";
 import { useTranslation } from "next-i18next";
 import type { CSSProperties } from "react";
 import { LuArrowRight, LuMapPin } from "react-icons/lu";
-import { UpcomingCelebrations } from "@/components/schedule/upcoming-celebrations";
+import { NextCelebration } from "@/components/home/next-celebration";
 import { churchImages } from "@/content/gallery";
 import { parish } from "@/content/parish";
 import { toMapsLink } from "@/utils/contact-links";
@@ -134,38 +134,11 @@ export function HomeHero() {
           </Stack>
 
           <Box
-            bg="paper.card"
-            color="ink.fg"
-            rounded="card"
-            p={{ base: "5", md: "7" }}
-            boxShadow="0 30px 60px -20px rgba(0,0,0,0.45)"
             animation="rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both"
             data-intro-delay=""
             style={{ "--intro-delay": "1.35s" } as CSSProperties}
           >
-            <HStack justify="space-between" mb="2">
-              <Text textStyle="eyebrow" color="brand.fg">
-                {t("hero.upcomingTitle")}
-              </Text>
-              <Text fontSize="xs" color="ink.subtle">
-                {t("hero.upcomingPlace")}
-              </Text>
-            </HStack>
-            <UpcomingCelebrations limit={3} />
-            <Button
-              asChild
-              variant="ghost"
-              size="sm"
-              mt="2"
-              px="0"
-              color="brand.fg"
-              _hover={{ bg: "transparent", textDecoration: "underline" }}
-            >
-              <NextLink href="/horarios">
-                {t("hero.fullSchedule")}
-                <LuArrowRight aria-hidden="true" />
-              </NextLink>
-            </Button>
+            <NextCelebration />
           </Box>
         </Grid>
       </Container>
