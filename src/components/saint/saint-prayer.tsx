@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import { LuCheck, LuShare2 } from "react-icons/lu";
 import { Reveal } from "@/components/shared/reveal";
 import { saintPortrait } from "@/content/gallery";
+import { copyText } from "@/utils/copy-text";
 
 const COPIED_FEEDBACK_MS = 2500;
 
@@ -35,13 +36,14 @@ export function SaintPrayer() {
     if (navigator.share) {
       try {
         await navigator.share({ title: t("prayer.title"), text: prayerText });
-      } catch {
         return;
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
       }
-      return;
     }
-    await navigator.clipboard?.writeText(prayerText);
-    setCopied(true);
+    setCopied(await copyText(prayerText));
   };
 
   return (

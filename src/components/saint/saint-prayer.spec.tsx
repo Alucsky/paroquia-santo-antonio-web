@@ -2,9 +2,11 @@ import { screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { SaintPrayer } from "@/components/saint/saint-prayer";
 import { renderWithProviders } from "@/test/render-with-providers";
+import * as clipboard from "@/utils/copy-text";
 
 describe("SaintPrayer", () => {
   afterEach(() => {
+    vi.restoreAllMocks();
     Reflect.deleteProperty(navigator, "share");
   });
 
@@ -39,19 +41,42 @@ describe("SaintPrayer", () => {
   });
 
   it("should be able to copy the prayer when sharing is not available", async () => {
-    const user = userEvent.setup();
-    const writeText = vi
-      .spyOn(navigator.clipboard, "writeText")
-      .mockResolvedValue(undefined);
+    const copy = vi.spyOn(clipboard, "copyText").mockResolvedValue(true);
     renderWithProviders(<SaintPrayer />);
 
-    await user.click(screen.getByTestId("saint-prayer-share"));
+    await userEvent.click(screen.getByTestId("saint-prayer-share"));
 
-    expect(writeText).toHaveBeenCalledWith(
+    expect(copy).toHaveBeenCalledWith(
       expect.stringContaining("Glorioso Santo Antônio"),
     );
     expect(screen.getByTestId("saint-prayer-share")).toHaveTextContent(
       "Oração copiada",
     );
+  });
+
+  it("should be able to keep the share label when copying fails", async () => {
+    vi.spyOn(clipboard, "copyText").mockResolvedValue(false);
+    renderWithProviders(<SaintPrayer />);
+
+    await userEvent.click(screen.getByTestId("saint-prayer-share"));
+
+    expect(screen.getByTestId("saint-prayer-share")).toHaveTextContent(
+      "Compartilhar oração",
+    );
+  });
+
+  it("should be able to copy the prayer when the share sheet is refused", async () => {
+    Object.defineProperty(navigator, "share", {
+      configurable: true,
+      value: vi
+        .fn()
+        .mockRejectedValue(new DOMException("blocked", "NotAllowedError")),
+    });
+    const copy = vi.spyOn(clipboard, "copyText").mockResolvedValue(true);
+    renderWithProviders(<SaintPrayer />);
+
+    await userEvent.click(screen.getByTestId("saint-prayer-share"));
+
+    expect(copy).toHaveBeenCalled();
   });
 });
