@@ -150,9 +150,9 @@ Depois do primeiro deploy, cadastre o domínio no [Google Search Console](https:
 
 ## Deploy na Vercel
 
-1. Em [vercel.com/new](https://vercel.com/new), importe o repositório `Alucsky/paroquia-santo-antonio-web`. A Vercel detecta o Next.js sozinha, então não precisa de `vercel.json`.
+1. Em [vercel.com/new](https://vercel.com/new), importe o repositório `Alucsky/paroquia-santo-antonio-web`. A Vercel detecta o Next.js sozinha. O `vercel.json` só limita os deploys à `main`.
 2. Sem configuração, canonical, sitemap e robots usam o domínio de produção da Vercel (`*.vercel.app`). Só defina `NEXT_PUBLIC_SITE_URL` em **Settings → Environment Variables** quando houver um domínio próprio.
-3. Em **Settings → Git**, deixe **Production Branch = `main`**. Todo PR ganha um preview automático.
+3. Em **Settings → Git**, deixe **Production Branch = `main`**. Só a `main` gera deploy: branches e PRs não geram preview ([ADR 0006](docs/adr/0006-deploy-somente-da-main.md)). Para revisar um PR, rode a branch localmente.
 4. Se a paróquia adotar o site, em **Settings → Domains** adicione o domínio dela e crie no registrador os registros que a Vercel mostrar (em geral `A 76.76.21.21` no domínio raiz e `CNAME cname.vercel-dns.com` no `www`).
 
 ## Qualidade
