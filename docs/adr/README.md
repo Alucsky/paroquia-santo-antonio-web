@@ -10,3 +10,4 @@ Decisões de arquitetura. Um ADR aceito é imutável: decisão nova vira um novo
 | [0004](0004-design-system-chakra-tokens.md) | Design system sobre Chakra UI v3 com tokens semânticos | Aceito |
 | [0005](0005-hospedagem-vercel-e-protecao-da-main.md) | Hospedagem na Vercel e proteção da `main` | Aceito, preview por PR substituído pelo 0006 |
 | [0006](0006-deploy-somente-da-main.md) | Deploy somente da `main` | Aceito |
+| [0007](0007-codigo-em-ingles-urls-em-portugues.md) | Código em inglês, URLs em português | Aceito |

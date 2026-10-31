@@ -12,7 +12,7 @@ describe("SiteLayout", () => {
 
     expect(
       screen.getByRole("link", { name: "Pular para o conteúdo" }),
-    ).toHaveAttribute("href", "#conteudo");
+    ).toHaveAttribute("href", "#main-content");
     expect(screen.getByRole("main")).toHaveTextContent("conteúdo");
     expect(screen.getByTestId("site-header")).toBeInTheDocument();
     expect(screen.getByTestId("mobile-action-bar")).toBeInTheDocument();

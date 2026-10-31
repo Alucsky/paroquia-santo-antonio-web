@@ -1,10 +1,10 @@
 import { screen } from "@testing-library/react";
-import SchedulePage from "@/pages/horarios";
+import SchedulePage from "@/pages/schedule";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("Schedule page", () => {
   it("should be able to render the main heading", () => {
-    renderWithProviders(<SchedulePage />, { pathname: "/horarios" });
+    renderWithProviders(<SchedulePage />, { pathname: "/schedule" });
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
       "Quando celebramos juntos.",

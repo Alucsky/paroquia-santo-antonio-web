@@ -23,7 +23,7 @@ Não existe backend. Toda informação vem de arquivos versionados no repositór
 
 | Camada | Pasta | Responsabilidade |
 |---|---|---|
-| Rotas | `src/pages/` | Uma página por arquivo, cada uma com `getStaticProps = withTranslations([...])` |
+| Rotas | `src/pages/` + `src/content/routes.json` | Uma página por arquivo, em inglês, cada uma com `getStaticProps = withTranslations([...])`. O `next.config.ts` serve cada página no caminho público em português (*rewrite*) e redireciona o caminho interno |
 | Layout | `src/layouts/site-layout.tsx` | Skip link, header fixo, `main`, rodapé, barra de atalhos no mobile |
 | Seções | `src/components/<contexto>/` | Blocos visuais por página (`home`, `saint`, `schedule`, `sacraments`, `communities`) |
 | Compartilhados | `src/components/shared/` | `Seo`, `PageHero`, `SectionHeading`, `Reveal`, `InfoCard`, `Marquee`, `VisitSection` |

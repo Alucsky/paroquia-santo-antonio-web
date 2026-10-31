@@ -2,7 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const pagesDir = path.join(root, "src/pages");
+const routeMap = JSON.parse(
+  fs.readFileSync(path.join(root, "src/content/routes.json"), "utf8"),
+);
 const publicDir = path.join(root, "public");
 
 const siteUrl = (
@@ -15,24 +17,11 @@ const siteUrl = (
 const locales = ["pt", "en", "es"];
 const defaultLocale = "pt";
 const hrefLang = { pt: "pt-BR", en: "en-US", es: "es-ES" };
-const ignored = new Set(["_app", "_document", "404", "500"]);
-
-function collectRoutes(dir, prefix = "") {
-  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-    if (entry.isDirectory()) {
-      if (entry.name === "api") return [];
-      return collectRoutes(path.join(dir, entry.name), `${prefix}/${entry.name}`);
-    }
-    const name = entry.name.replace(/\.tsx?$/, "");
-    if (ignored.has(name) || name.includes("[") || entry.name.includes(".spec.")) return [];
-    return [name === "index" ? prefix || "/" : `${prefix}/${name}`];
-  });
-}
-
 const localizedUrl = (locale, route) =>
   `${siteUrl}${locale === defaultLocale ? "" : `/${locale}`}${route === "/" ? "" : route}` || siteUrl;
 
-const routes = collectRoutes(pagesDir).sort((a, b) => (a === "/" ? -1 : b === "/" ? 1 : a.localeCompare(b)));
+const routes = ["/", ...Object.values(routeMap).map(({ path }) => path).sort()];
+const weeklyRoutes = new Set(["/", routeMap.schedule.path]);
 const lastModified = new Date().toISOString().slice(0, 10);
 
 const urls = routes.flatMap((route) =>
@@ -48,7 +37,7 @@ const urls = routes.flatMap((route) =>
       "  <url>",
       `    <loc>${localizedUrl(locale, route)}</loc>`,
       `    <lastmod>${lastModified}</lastmod>`,
-      `    <changefreq>${route === "/" || route === "/horarios" ? "weekly" : "monthly"}</changefreq>`,
+      `    <changefreq>${weeklyRoutes.has(route) ? "weekly" : "monthly"}</changefreq>`,
       `    <priority>${route === "/" ? "1.0" : locale === defaultLocale ? "0.8" : "0.6"}</priority>`,
       alternates,
       "  </url>",

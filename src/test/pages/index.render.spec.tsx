@@ -1,4 +1,5 @@
 import { screen } from "@testing-library/react";
+import { routes, sacramentLink } from "@/content/routes";
 import HomePage from "@/pages/index";
 import { renderWithProviders } from "@/test/render-with-providers";
 
@@ -16,10 +17,10 @@ describe("Home page", () => {
 
     expect(
       screen.getByRole("link", { name: "Horários de missa" }),
-    ).toHaveAttribute("href", "/horarios");
+    ).toHaveAttribute("href", routes.schedule);
     expect(screen.getByRole("link", { name: "Batizado" })).toHaveAttribute(
       "href",
-      "/sacramentos#batismo",
+      sacramentLink("baptism"),
     );
     expect(screen.getAllByTestId("communities-feature-stat")).toHaveLength(3);
   });

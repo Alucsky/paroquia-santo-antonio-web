@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import type { IconType } from "react-icons";
 import { LuClock3, LuMapPin, LuMessageCircle } from "react-icons/lu";
 import { parish } from "@/content/parish";
+import { routes } from "@/content/routes";
 import { toMapsLink, toWhatsappLink } from "@/utils/contact-links";
 
 type Action = {
@@ -14,7 +15,7 @@ type Action = {
 };
 
 const actions: Action[] = [
-  { key: "schedule", href: "/horarios", icon: LuClock3 },
+  { key: "schedule", href: routes.schedule, icon: LuClock3 },
   {
     key: "whatsapp",
     href: toWhatsappLink(parish.contact.whatsapp),

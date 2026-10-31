@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
+import { usePublicPath } from "@/hooks/use-public-path";
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, toIntlLocale } from "@/lib/i18n";
 import { GOOGLE_SITE_VERIFICATION, SITE_URL } from "@/lib/site";
 
@@ -21,13 +22,13 @@ export function localizedUrl(locale: string, path: string): string {
 export function Seo({
   title,
   description,
-  image = "/images/igreja/fachada-banner-1.jpg",
+  image = "/images/church/facade-banner-1.jpg",
   noIndex = false,
   jsonLd,
 }: Props) {
   const { t } = useTranslation("common");
-  const { asPath, locale = DEFAULT_LOCALE } = useRouter();
-  const path = asPath.split(/[?#]/)[0] || "/";
+  const { locale = DEFAULT_LOCALE } = useRouter();
+  const path = usePublicPath();
   const siteName = t("brand.fullName");
   const fullTitle = title ? `${title} · ${siteName}` : siteName;
   const imageUrl = image.startsWith("http") ? image : `${SITE_URL}${image}`;

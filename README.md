@@ -99,14 +99,14 @@ public/
 scripts/
   generate-seo-files.mjs  gera sitemap.xml e robots.txt no build
 src/
-  pages/                rotas (arquivo = página)
+  pages/                páginas, com nome em inglês (arquivo = página)
   layouts/              layout do site (header, rodapé, barra de atalhos no celular)
   components/
     ui/                 kit base do Chakra (gerado pela CLI, fora do lint)
     layout/             header, menu, rodapé, seletor de idioma
     shared/             SEO, títulos de seção, hero de página, animação de entrada
     home/ saint/ schedule/ sacraments/ communities/
-  content/              dados estáticos: contatos, horários, comunidades, pastorais, fotos
+  content/              dados estáticos: contatos, horários, comunidades, pastorais, fotos e rotas públicas (routes.json)
   hooks/                useNow, useReveal
   lib/                  fontes, idiomas, URL do site, traduções no build
   styles/               tema, paleta, recipes e CSS global
@@ -115,7 +115,7 @@ src/
 docs/                   PRD, HLD, ADRs, convenções e guia de conteúdo
 ```
 
-Arquivos em **kebab-case**. Imports por alias (`@/components/*`, `@/content/*` etc.), sem `@/*` genérico. Detalhes em [docs/conventions/web.md](docs/conventions/web.md).
+Código em **inglês** e arquivos em **kebab-case**. As URLs públicas continuam em português (`/horarios`), mapeadas em `src/content/routes.json`. Imports por alias (`@/components/*`, `@/content/*` etc.), sem `@/*` genérico. Detalhes em [docs/conventions/web.md](docs/conventions/web.md).
 
 ## Atualizando o conteúdo
 

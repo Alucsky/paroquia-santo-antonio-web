@@ -229,7 +229,7 @@ export default function ParishPage() {
                 alignSelf="flex-start"
               >
                 <Image
-                  src="/images/marca/brasao-diocese.png"
+                  src="/images/brand/diocese-coat-of-arms.png"
                   alt=""
                   width={56}
                   height={55}

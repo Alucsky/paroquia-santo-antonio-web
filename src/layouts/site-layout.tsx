@@ -16,7 +16,7 @@ export function SiteLayout({ children }: Props) {
   return (
     <Box minH="100dvh" display="flex" flexDirection="column">
       <Link
-        href="#conteudo"
+        href="#main-content"
         position="absolute"
         left="3"
         top="-20"
@@ -35,7 +35,7 @@ export function SiteLayout({ children }: Props) {
       <SiteHeader />
       <Box
         as="main"
-        id="conteudo"
+        id="main-content"
         flex="1"
         tabIndex={-1}
         _focus={{ outline: "none" }}

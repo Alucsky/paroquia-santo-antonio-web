@@ -30,7 +30,7 @@ export default function HomePage() {
           url: SITE_URL,
           telephone: parish.contact.phone,
           email: parish.contact.email,
-          image: `${SITE_URL}/images/igreja/fachada-banner-1.jpg`,
+          image: `${SITE_URL}/images/church/facade-banner-1.jpg`,
           address: {
             "@type": "PostalAddress",
             streetAddress: parish.address.street,

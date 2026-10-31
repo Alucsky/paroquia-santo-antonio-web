@@ -5,7 +5,7 @@ import { renderWithProviders } from "@/test/render-with-providers";
 describe("LanguageSwitcher", () => {
   it("should be able to offer every language for the current page", () => {
     renderWithProviders(<LanguageSwitcher />, {
-      pathname: "/santo-antonio",
+      pathname: "/saint-anthony",
       locale: "en",
     });
 

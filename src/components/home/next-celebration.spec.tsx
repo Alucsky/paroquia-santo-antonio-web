@@ -1,5 +1,6 @@
 import { screen } from "@testing-library/react";
 import { NextCelebration } from "@/components/home/next-celebration";
+import { routes } from "@/content/routes";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("NextCelebration", () => {
@@ -21,7 +22,7 @@ describe("NextCelebration", () => {
     );
     expect(
       screen.getByRole("link", { name: /Todos os horários/ }),
-    ).toHaveAttribute("href", "/horarios");
+    ).toHaveAttribute("href", routes.schedule);
   });
 
   it("should be able to say today and use the locale time format", () => {

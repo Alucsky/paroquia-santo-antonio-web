@@ -1,20 +1,22 @@
+import { routes } from "@/content/routes";
+
 export type NavigationItem = {
   key: string;
   href: string;
 };
 
 export const primaryNavigation: NavigationItem[] = [
-  { key: "schedule", href: "/horarios" },
-  { key: "sacraments", href: "/sacramentos" },
-  { key: "saint", href: "/santo-antonio" },
-  { key: "communities", href: "/comunidades" },
-  { key: "ministries", href: "/pastorais" },
-  { key: "parish", href: "/paroquia" },
+  { key: "schedule", href: routes.schedule },
+  { key: "sacraments", href: routes.sacraments },
+  { key: "saint", href: routes.saintAnthony },
+  { key: "communities", href: routes.communities },
+  { key: "ministries", href: routes.ministries },
+  { key: "parish", href: routes.parish },
 ];
 
 export const contactNavigation: NavigationItem = {
   key: "contact",
-  href: "/contato",
+  href: routes.contact,
 };
 
 export const externalLinks = [

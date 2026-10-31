@@ -1,10 +1,10 @@
 import { screen } from "@testing-library/react";
-import SacramentsPage from "@/pages/sacramentos";
+import SacramentsPage from "@/pages/sacraments";
 import { renderWithProviders } from "@/test/render-with-providers";
 
 describe("Sacraments page", () => {
   it("should be able to render the main heading", () => {
-    renderWithProviders(<SacramentsPage />, { pathname: "/sacramentos" });
+    renderWithProviders(<SacramentsPage />, { pathname: "/sacraments" });
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
       "Os momentos mais importantes da sua vida de fé.",

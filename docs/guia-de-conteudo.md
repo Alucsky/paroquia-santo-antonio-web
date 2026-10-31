@@ -83,7 +83,7 @@ Arquivo: `public/locales/<idioma>/sacraments.json`, nas listas `baptism.document
 
 ## Fotos
 
-1. Coloque a imagem em `public/images/vida-paroquial/` (JPG, no mínimo 1024px de largura, de preferência na horizontal).
+1. Coloque a imagem em `public/images/parish-life/` (JPG, no mínimo 1024px de largura, de preferência na horizontal).
 2. Em `src/content/gallery.ts`, troque ou adicione o item com `src`, `width` e `height` reais da foto.
 3. Escreva a legenda em `public/locales/<idioma>/home.json`, em `gallery.items`.
 
