@@ -1,7 +1,20 @@
 import { useTranslation } from "next-i18next";
+import { useEffect } from "react";
+
+export const INTRO_DURATION_MS = 1600;
 
 export function IntroCurtain() {
   const { t } = useTranslation("common");
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (root.classList.contains("intro-seen")) return;
+    const timer = window.setTimeout(
+      () => root.classList.add("intro-seen"),
+      INTRO_DURATION_MS,
+    );
+    return () => window.clearTimeout(timer);
+  }, []);
 
   return (
     <div

@@ -1,14 +1,23 @@
 import {
   Box,
+  Button,
   Container,
   Grid,
+  HStack,
   SimpleGrid,
   Stack,
   Text,
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
-import { LuCalendarHeart, LuInfo, LuSparkles } from "react-icons/lu";
+import {
+  LuCalendarHeart,
+  LuInfo,
+  LuInstagram,
+  LuMessageCircle,
+  LuSparkles,
+} from "react-icons/lu";
+import { BrandMark } from "@/components/layout/brand-mark";
 import { OfficeHours } from "@/components/schedule/office-hours";
 import { UpcomingCelebrations } from "@/components/schedule/upcoming-celebrations";
 import { WeeklySchedule } from "@/components/schedule/weekly-schedule";
@@ -22,6 +31,7 @@ import { celebrations } from "@/content/celebrations";
 import { parish } from "@/content/parish";
 import { toIntlLocale } from "@/lib/i18n";
 import { withTranslations } from "@/lib/static-translations";
+import { toWhatsappLink } from "@/utils/contact-links";
 import { formatTime } from "@/utils/upcoming-celebrations";
 
 export default function SchedulePage() {
@@ -55,28 +65,79 @@ export default function SchedulePage() {
             <UpcomingCelebrations limit={4} />
           </Box>
           <Stack
-            gap="3"
-            justify="center"
+            gap="6"
+            justify="space-between"
             bg="ink.solid"
             color="ink.contrast"
             rounded="card"
-            p={{ base: "5", md: "7" }}
+            p={{ base: "6", md: "8" }}
+            position="relative"
+            overflow="hidden"
+            data-testid="schedule-notice"
           >
-            <Box color="accent.onDark">
-              <LuInfo size="22" aria-hidden="true" />
-            </Box>
-            <Text
-              fontFamily="heading"
-              fontSize={{ base: "xl", md: "2xl" }}
-              lineHeight="1.3"
+            <BrandMark
+              position="absolute"
+              right={{ base: "-8", md: "-6" }}
+              bottom={{ base: "-6", md: "-4" }}
+              boxSize={{ base: "40", md: "56" }}
+              color="accent.onDark"
+              opacity="0.07"
+              pointerEvents="none"
+            />
+            <HStack gap="2.5" color="accent.onDark">
+              <LuInfo size="18" aria-hidden="true" />
+              <Text textStyle="eyebrow">{t("notice.eyebrow")}</Text>
+            </HStack>
+            <Stack gap="3" position="relative">
+              <Text
+                fontFamily="heading"
+                fontSize={{ base: "2xl", md: "3xl" }}
+                lineHeight="1.15"
+                letterSpacing="-0.01em"
+                textWrap="balance"
+              >
+                {t("notice.title")}
+              </Text>
+              <Text color="whiteAlpha.700" textWrap="pretty">
+                {t("notice.description", {
+                  instagram: parish.social.instagramHandle,
+                })}
+              </Text>
+            </Stack>
+            <Stack
+              direction={{ base: "column", sm: "row" }}
+              flexWrap="wrap"
+              gap="3"
+              position="relative"
             >
-              {t("notice.title")}
-            </Text>
-            <Text color="whiteAlpha.700" fontSize="sm">
-              {t("notice.description", {
-                instagram: parish.social.instagramHandle,
-              })}
-            </Text>
+              <Button asChild variant="light" size="md">
+                <a
+                  href={parish.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LuInstagram aria-hidden="true" />
+                  {t("notice.instagram")}
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="md"
+                color="white"
+                borderColor="whiteAlpha.400"
+                _hover={{ bg: "whiteAlpha.100" }}
+              >
+                <a
+                  href={toWhatsappLink(parish.contact.whatsapp)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LuMessageCircle aria-hidden="true" />
+                  {t("notice.whatsapp")}
+                </a>
+              </Button>
+            </Stack>
           </Stack>
         </Grid>
       </PageHero>

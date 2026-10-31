@@ -10,8 +10,11 @@
   },
   "upcoming": { "title": "Upcoming celebrations at the main church" },
   "notice": {
+    "eyebrow": "Before you head out",
     "title": "Holidays, feast days and liturgical seasons may change these times.",
-    "description": "Weekly announcements are posted on Instagram {{instagram}}. If in doubt, message the parish office on WhatsApp."
+    "description": "Weekly announcements are posted on Instagram {{instagram}}. If in doubt, message the parish office on WhatsApp.",
+    "instagram": "See announcements",
+    "whatsapp": "Message the parish office"
   },
   "weekly": { "eyebrow": "Every week", "title": "Masses at the main church" },
   "monthly": {
