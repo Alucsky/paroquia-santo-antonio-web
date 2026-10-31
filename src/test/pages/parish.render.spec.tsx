@@ -16,5 +16,8 @@ describe("Parish page", () => {
 
     expect(screen.getAllByTestId("parish-milestone")).toHaveLength(4);
     expect(screen.getAllByTestId("parish-stat")[1]).toHaveTextContent("22");
+    expect(screen.getByTestId("parish-milestone-end")).toHaveTextContent(
+      "1999",
+    );
   });
 });

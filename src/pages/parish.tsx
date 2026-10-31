@@ -120,29 +120,59 @@ export default function ParishPage() {
                   borderTopWidth="1px"
                   borderColor="line.strong"
                 >
-                  {milestones.map((milestone) => (
-                    <Grid
-                      as="li"
-                      key={milestone.year}
-                      templateColumns="5rem 1fr"
-                      gap="4"
-                      py="4"
-                      borderBottomWidth="1px"
-                      borderColor="line.hairline"
-                      data-testid="parish-milestone"
-                    >
-                      <Text
-                        fontFamily="heading"
-                        fontSize="2xl"
-                        fontWeight="600"
-                        color="brand.fg"
-                        lineHeight="1.1"
+                  {milestones.map((milestone) => {
+                    const [startYear, endYear] = milestone.year.split("–");
+                    return (
+                      <Grid
+                        as="li"
+                        key={milestone.year}
+                        templateColumns={{
+                          base: "4.5rem 1fr",
+                          md: "5.5rem 1fr",
+                        }}
+                        gap={{ base: "4", md: "6" }}
+                        py="5"
+                        borderBottomWidth="1px"
+                        borderColor="line.hairline"
+                        data-testid="parish-milestone"
                       >
-                        {milestone.year}
-                      </Text>
-                      <Text color="ink.muted">{milestone.text}</Text>
-                    </Grid>
-                  ))}
+                        <Stack gap="1.5" align="start">
+                          <Text
+                            fontFamily="heading"
+                            fontSize={{ base: "2xl", md: "3xl" }}
+                            fontWeight="600"
+                            color="brand.fg"
+                            lineHeight="1"
+                            fontVariantNumeric="lining-nums"
+                          >
+                            {startYear}
+                          </Text>
+                          {endYear ? (
+                            <Text
+                              fontFamily="heading"
+                              fontSize={{ base: "lg", md: "xl" }}
+                              fontStyle="italic"
+                              color="ink.subtle"
+                              lineHeight="1"
+                              data-testid="parish-milestone-end"
+                            >
+                              <Text
+                                as="span"
+                                aria-hidden="true"
+                                color="frame.gold"
+                              >
+                                —{" "}
+                              </Text>
+                              {endYear}
+                            </Text>
+                          ) : null}
+                        </Stack>
+                        <Text color="ink.muted" textWrap="pretty">
+                          {milestone.text}
+                        </Text>
+                      </Grid>
+                    );
+                  })}
                 </Stack>
                 <Text fontSize="xs" color="ink.subtle">
                   {t("history.source")}

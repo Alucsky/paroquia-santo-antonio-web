@@ -12,8 +12,11 @@
     "title": "Próximas celebrações na Matriz"
   },
   "notice": {
+    "eyebrow": "Antes de sair de casa",
     "title": "Feriados, festas e tempos litúrgicos podem alterar os horários.",
-    "description": "Os avisos da semana são publicados no Instagram {{instagram}}. Na dúvida, fale com a secretaria pelo WhatsApp."
+    "description": "Os avisos da semana são publicados no Instagram {{instagram}}. Na dúvida, fale com a secretaria pelo WhatsApp.",
+    "instagram": "Ver avisos no Instagram",
+    "whatsapp": "Falar com a secretaria"
   },
   "weekly": {
     "eyebrow": "Toda semana",
