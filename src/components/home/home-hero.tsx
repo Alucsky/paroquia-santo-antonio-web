@@ -8,7 +8,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import Image from "next/image";
+import { getImageProps } from "next/image";
 import NextLink from "next/link";
 import { useTranslation } from "next-i18next";
 import type { CSSProperties } from "react";
@@ -17,6 +17,23 @@ import { NextCelebration } from "@/components/home/next-celebration";
 import { churchImages } from "@/content/gallery";
 import { parish } from "@/content/parish";
 import { toMapsLink } from "@/utils/contact-links";
+
+const sharedImageProps = {
+  alt: "",
+  fill: true,
+  priority: true,
+  sizes: "100vw",
+};
+
+const { props: desktopImage } = getImageProps({
+  ...sharedImageProps,
+  src: churchImages.facade.src,
+});
+
+const { props: mobileImage } = getImageProps({
+  ...sharedImageProps,
+  src: churchImages.nave.src,
+});
 
 export function HomeHero() {
   const { t } = useTranslation("home");
@@ -29,26 +46,18 @@ export function HomeHero() {
       data-testid="home-hero"
     >
       <Box position="absolute" inset="0" overflow="hidden">
-        <Box hideFrom="md" position="absolute" inset="0">
-          <Image
-            src={churchImages.nave.src}
-            alt={t("hero.mobileImageAlt")}
-            fill
-            priority
-            sizes="100vw"
-            style={{ objectFit: "cover", objectPosition: "50% 30%" }}
+        <picture>
+          <source media="(min-width: 48em)" srcSet={desktopImage.srcSet} />
+          <img
+            {...mobileImage}
+            alt={sharedImageProps.alt}
+            style={{
+              ...mobileImage.style,
+              objectFit: "cover",
+              objectPosition: "50% 35%",
+            }}
           />
-        </Box>
-        <Box hideBelow="md" position="absolute" inset="0">
-          <Image
-            src={churchImages.facade.src}
-            alt={t("hero.imageAlt")}
-            fill
-            priority
-            sizes="100vw"
-            style={{ objectFit: "cover", objectPosition: "50% 40%" }}
-          />
-        </Box>
+        </picture>
         <Box
           position="absolute"
           inset="0"

@@ -113,10 +113,9 @@ export const themeConfig = defineConfig({
         "0%, 100%": { transform: "translateY(0)" },
         "50%": { transform: "translateY(-8px)" },
       },
-      pulseDot: {
-        "0%": { boxShadow: "0 0 0 0 rgba(192, 82, 56, 0.55)" },
-        "70%": { boxShadow: "0 0 0 10px rgba(192, 82, 56, 0)" },
-        "100%": { boxShadow: "0 0 0 0 rgba(192, 82, 56, 0)" },
+      pulseRing: {
+        from: { opacity: 0.6, transform: "scale(1)" },
+        to: { opacity: 0, transform: "scale(3)" },
       },
     },
     recipes: {

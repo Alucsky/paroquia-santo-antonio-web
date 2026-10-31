@@ -54,7 +54,15 @@ export function NextCelebration() {
           boxSize="2.5"
           rounded="full"
           bg="terracotta.300"
-          animation="pulseDot 2s infinite"
+          position="relative"
+          _after={{
+            content: '""',
+            position: "absolute",
+            inset: "0",
+            rounded: "full",
+            bg: "inherit",
+            animation: "pulseRing 2s ease-out infinite",
+          }}
           flexShrink="0"
         />
         <Text textStyle="eyebrow" color="accent.onDark">
