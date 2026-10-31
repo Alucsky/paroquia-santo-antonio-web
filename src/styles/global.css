@@ -151,7 +151,7 @@ html:not(.js) [data-reveal] {
 }
 
 html:not(.intro-seen) [data-intro-delay] {
-  animation-delay: var(--intro-delay, 0.85s);
+  animation-delay: var(--intro-delay, 1.15s);
   animation-fill-mode: both;
 }
 

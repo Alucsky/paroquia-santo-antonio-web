@@ -70,7 +70,7 @@ export function HomeHero() {
               gap="3"
               animation="rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "0.8s" } as CSSProperties}
+              style={{ "--intro-delay": "1.1s" } as CSSProperties}
             >
               <Box h="1px" w="8" bg="accent.onDark" />
               <Text textStyle="eyebrow" color="accent.onDark">
@@ -85,7 +85,7 @@ export function HomeHero() {
               textWrap="balance"
               animation="rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "0.88s" } as CSSProperties}
+              style={{ "--intro-delay": "1.18s" } as CSSProperties}
             >
               {t("hero.titleLead")}{" "}
               <Text as="span" fontStyle="italic" color="accent.onDark">
@@ -99,7 +99,7 @@ export function HomeHero() {
               textWrap="pretty"
               animation="rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "0.96s" } as CSSProperties}
+              style={{ "--intro-delay": "1.26s" } as CSSProperties}
             >
               {t("hero.lead")}
             </Text>
@@ -109,7 +109,7 @@ export function HomeHero() {
               pt="2"
               animation="rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "1.02s" } as CSSProperties}
+              style={{ "--intro-delay": "1.32s" } as CSSProperties}
             >
               <Button asChild size="lg" variant="solid">
                 <NextLink href="/horarios">
@@ -141,7 +141,7 @@ export function HomeHero() {
             boxShadow="0 30px 60px -20px rgba(0,0,0,0.45)"
             animation="rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both"
             data-intro-delay=""
-            style={{ "--intro-delay": "1.05s" } as CSSProperties}
+            style={{ "--intro-delay": "1.35s" } as CSSProperties}
           >
             <HStack justify="space-between" mb="2">
               <Text textStyle="eyebrow" color="brand.fg">

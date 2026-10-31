@@ -55,7 +55,7 @@ export function SaintHero() {
               fontSize={{ base: "5xl", sm: "6xl", md: "7xl", xl: "8xl" }}
               animation="rise 0.8s cubic-bezier(0.2,0.7,0.2,1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "0.85s" } as CSSProperties}
+              style={{ "--intro-delay": "1.15s" } as CSSProperties}
             >
               {t("hero.titleLead")}{" "}
               <Text as="span" fontStyle="italic" color="accent.onDark">
@@ -105,7 +105,7 @@ export function SaintHero() {
               boxShadow="0 40px 80px -30px rgba(0,0,0,0.8)"
               animation="rise 0.9s cubic-bezier(0.2,0.7,0.2,1) both"
               data-intro-delay=""
-              style={{ "--intro-delay": "0.95s" } as CSSProperties}
+              style={{ "--intro-delay": "1.25s" } as CSSProperties}
             >
               <Image
                 src={saintPortrait.src}
