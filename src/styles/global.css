@@ -69,3 +69,98 @@ html:not(.js) [data-reveal] {
   opacity: 1;
   transform: none;
 }
+
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: #1a1511;
+  color: #faf7f2;
+  pointer-events: none;
+  animation: intro-curtain-out 0.55s cubic-bezier(0.76, 0, 0.24, 1) 0.7s
+    forwards;
+}
+
+.intro-curtain__mark path {
+  stroke: #ddb963;
+  stroke-width: 3.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+.intro-curtain__arch {
+  animation: intro-draw 0.5s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+.intro-curtain__ground {
+  animation: intro-draw 0.25s ease-out 0.2s forwards;
+}
+
+.intro-curtain__cross {
+  animation: intro-draw 0.3s ease-out 0.35s forwards;
+}
+
+.intro-curtain__name,
+.intro-curtain__place {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-rise 0.35s ease-out 0.3s forwards;
+}
+
+.intro-curtain__name {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+}
+
+.intro-curtain__place {
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ddb963;
+  animation-delay: 0.4s;
+}
+
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes intro-rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes intro-curtain-out {
+  to {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+}
+
+html:not(.intro-seen) [data-intro-delay] {
+  animation-delay: var(--intro-delay, 0.85s);
+  animation-fill-mode: both;
+}
+
+html.intro-seen .intro-curtain {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-curtain {
+    display: none;
+  }
+}

@@ -2,9 +2,7 @@ const productionHost = process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL;
 
 export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ??
-  (productionHost
-    ? `https://${productionHost}`
-    : "https://www.paroquiasantoantoniodv.com.br")
+  (productionHost ? `https://${productionHost}` : "http://localhost:3000")
 ).replace(/\/$/, "");
 
 export const GOOGLE_SITE_VERIFICATION =

@@ -1,8 +1,10 @@
 # PRD — Site da Paróquia Santo Antônio de Pádua (v2)
 
+> Projeto independente e voluntário, proposto como nova versão do site da paróquia. Não é, por enquanto, o canal oficial: o site oficial continua sendo o atual até que a paróquia adote este.
+
 ## Problema
 
-O site anterior (plataforma multi-tenant de terceiros, servido dentro de um *frameset*) estava desatualizado: galerias paradas em 2017, poucas notícias recentes, páginas vazias, informações conflitantes (dois horários de secretaria, dois e-mails), layout antigo e experiência ruim no celular. O frameset também prejudicava o SEO, porque a URL não mudava e o conteúdo real ficava em outro domínio.
+O site atual (plataforma multi-tenant de terceiros, servido dentro de um *frameset*) estava desatualizado: galerias paradas em 2017, poucas notícias recentes, páginas vazias, informações conflitantes (dois horários de secretaria, dois e-mails), layout antigo e experiência ruim no celular. O frameset também prejudicava o SEO, porque a URL não mudava e o conteúdo real ficava em outro domínio.
 
 ## Público
 
@@ -49,7 +51,6 @@ A maioria acessa **pelo celular**.
 
 ## Questões em aberto com a paróquia
 
-1. E-mail oficial: `@outlook.com` (adotado) ou `@gmail.com`?
-2. Horário da secretaria: foi adotada a versão da página "Secretaria Paroquial" (8h–11h45 / 13h15–17h30).
-3. Coordenadores atuais das pastorais sem informação.
-4. Fotos de capa das comunidades (as do site anterior estão quebradas).
+1. Horário da secretaria: foi adotada a versão da página "Secretaria Paroquial" (8h–11h45 / 13h15–17h30).
+2. Coordenadores atuais das pastorais sem informação.
+3. Fotos de capa das comunidades (as do site atual estão quebradas).

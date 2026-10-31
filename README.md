@@ -1,11 +1,13 @@
-# Paróquia Santo Antônio de Pádua — site
+# Paróquia Santo Antônio de Pádua — proposta de novo site
 
 [![CI](https://github.com/Alucsky/paroquia-santo-antonio-web/actions/workflows/ci.yml/badge.svg)](https://github.com/Alucsky/paroquia-santo-antonio-web/actions/workflows/ci.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-a63d29.svg)](LICENSE)
 
-Site oficial da **Paróquia Santo Antônio de Pádua**, em Dois Vizinhos (PR): horários de missa, sacramentos, comunidades, pastorais e a história do padroeiro. Feito para abrir rápido em qualquer celular, em **português, inglês e espanhol**.
+Proposta de uma nova versão do site da **Paróquia Santo Antônio de Pádua**, em Dois Vizinhos (PR): horários de missa, sacramentos, comunidades, pastorais e a história do padroeiro. Feito para abrir rápido em qualquer celular, em **português, inglês e espanhol**.
 
-É um projeto **open source**. A própria paróquia, ou qualquer voluntário, pode atualizar horários, textos e fotos sem mexer em código complicado.
+> **Este não é o site oficial da paróquia.** É um projeto independente e voluntário, feito a partir das informações públicas do site atual e das redes da paróquia. A ideia é que a paróquia possa adotá-lo e mantê-lo. Até lá, horários e contatos oficiais são os divulgados pela própria paróquia.
+
+É um projeto **open source**: a paróquia, ou qualquer voluntário, pode atualizar horários, textos e fotos sem mexer em código complicado.
 
 ---
 
@@ -72,7 +74,7 @@ Variáveis de ambiente são opcionais (veja `.env.example`):
 
 | Variável | Para quê |
 |---|---|
-| `NEXT_PUBLIC_SITE_URL` | URL pública usada em canonical, Open Graph, sitemap e robots. Na Vercel, sem ela, o site usa o domínio de produção do projeto |
+| `NEXT_PUBLIC_SITE_URL` | URL pública usada em canonical, Open Graph, sitemap e robots. Sem ela: domínio de produção da Vercel, ou `http://localhost:3000` em desenvolvimento |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Código de verificação do Google Search Console |
 
 ## Scripts
@@ -149,9 +151,9 @@ Depois do primeiro deploy, cadastre o domínio no [Google Search Console](https:
 ## Deploy na Vercel
 
 1. Em [vercel.com/new](https://vercel.com/new), importe o repositório `Alucsky/paroquia-santo-antonio-web`. A Vercel detecta o Next.js sozinha, então não precisa de `vercel.json`.
-2. Em **Settings → Environment Variables**, defina `NEXT_PUBLIC_SITE_URL` com o domínio final (ex.: `https://www.paroquiasantoantoniodv.com.br`).
+2. Sem configuração, canonical, sitemap e robots usam o domínio de produção da Vercel (`*.vercel.app`). Só defina `NEXT_PUBLIC_SITE_URL` em **Settings → Environment Variables** quando houver um domínio próprio.
 3. Em **Settings → Git**, deixe **Production Branch = `main`**. Todo PR ganha um preview automático.
-4. Em **Settings → Domains**, adicione o domínio e crie no registrador os registros que a Vercel mostrar (em geral `A 76.76.21.21` no domínio raiz e `CNAME cname.vercel-dns.com` no `www`).
+4. Se a paróquia adotar o site, em **Settings → Domains** adicione o domínio dela e crie no registrador os registros que a Vercel mostrar (em geral `A 76.76.21.21` no domínio raiz e `CNAME cname.vercel-dns.com` no `www`).
 
 ## Qualidade
 
@@ -177,11 +179,11 @@ Contribuições são bem-vindas, desde correção de horário até melhoria de d
 | [docs/adr/](docs/adr/) | Decisões de arquitetura (ADRs) |
 | [docs/conventions/](docs/conventions/) | Convenções de código e de testes |
 | [docs/guia-de-conteudo.md](docs/guia-de-conteudo.md) | Como a paróquia atualiza o site |
-| [docs/research/site-v1-inventario.md](docs/research/site-v1-inventario.md) | Levantamento do site anterior |
+| [docs/research/site-v1-inventario.md](docs/research/site-v1-inventario.md) | Levantamento do site atual da paróquia |
 
 ## Créditos das imagens
 
-- **Fotos da Igreja Matriz e da vida paroquial:** acervo da Paróquia Santo Antônio de Pádua, publicado originalmente no site anterior da paróquia.
+- **Fotos da Igreja Matriz e da vida paroquial:** acervo da Paróquia Santo Antônio de Pádua, publicado originalmente no site atual da paróquia.
 - **Pintura do padroeiro:** Francisco de Zurbarán, *Aparição do Menino Jesus a Santo Antônio de Pádua*, c. 1627–1630, acervo do MASP (São Paulo). Domínio público, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_-_Sto_Antonio_de_Padua.jpg).
 - **Brasão diocesano:** Diocese de Palmas – Francisco Beltrão.
 
