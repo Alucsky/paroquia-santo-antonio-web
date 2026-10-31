@@ -33,7 +33,7 @@
     "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.6.3",
     "@chakra-ui/cli": "^3.37.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
