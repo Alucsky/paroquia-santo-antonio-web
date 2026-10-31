@@ -1,6 +1,7 @@
 import { Box, Link } from "@chakra-ui/react";
 import { useTranslation } from "next-i18next";
 import type { ReactNode } from "react";
+import { IntroCurtain } from "@/components/layout/intro-curtain";
 import { MobileActionBar } from "@/components/layout/mobile-action-bar";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -30,6 +31,7 @@ export function SiteLayout({ children }: Props) {
       >
         {t("skipToContent")}
       </Link>
+      <IntroCurtain />
       <SiteHeader />
       <Box
         as="main"

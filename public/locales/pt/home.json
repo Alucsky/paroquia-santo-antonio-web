@@ -43,7 +43,9 @@
         "title": "Secretaria",
         "description": "Fale direto com a secretaria paroquial pelo WhatsApp."
       }
-    }
+    },
+    "open": "Ver mais",
+    "openWhatsapp": "Abrir WhatsApp"
   },
   "patron": {
     "eyebrow": "Nosso padroeiro",

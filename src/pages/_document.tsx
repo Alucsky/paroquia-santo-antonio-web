@@ -10,7 +10,8 @@ export default function Document() {
         <link rel="manifest" href="/site.webmanifest" />
         <script
           dangerouslySetInnerHTML={{
-            __html: "document.documentElement.classList.add('js')",
+            __html:
+              "(function(){var d=document.documentElement;d.classList.add('js');try{if(sessionStorage.getItem('intro-seen')){d.classList.add('intro-seen')}else{sessionStorage.setItem('intro-seen','1')}}catch(e){}})()",
           }}
         />
       </Head>

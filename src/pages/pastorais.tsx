@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { useTranslation } from "next-i18next";
 import { LuMessageCircle } from "react-icons/lu";
+import { HolyCard } from "@/components/shared/holy-card";
 import { PageHero } from "@/components/shared/page-hero";
 import { Reveal } from "@/components/shared/reveal";
 import { Seo } from "@/components/shared/seo";
@@ -70,33 +71,17 @@ export default function MinistriesPage() {
                 </Reveal>
                 <SimpleGrid
                   columns={{ base: 1, sm: 2 }}
-                  gap={{ base: "3", md: "4" }}
+                  gap={{ base: "7", md: "8" }}
+                  px={{ base: "2", md: "0" }}
                 >
                   {items.map((ministry, index) => (
                     <Reveal key={ministry.slug} delay={index}>
-                      <Stack
-                        gap="2"
-                        h="full"
-                        bg="paper.card"
-                        borderWidth="1px"
-                        borderColor="line.hairline"
-                        rounded="card"
-                        p={{ base: "5", md: "6" }}
+                      <HolyCard
+                        index={index + groupIndex}
+                        title={t(`items.${ministry.slug}.title`)}
+                        description={t(`items.${ministry.slug}.description`)}
                         data-testid="ministry-card"
-                      >
-                        <Heading
-                          as="h3"
-                          fontFamily="heading"
-                          fontWeight="600"
-                          fontSize="xl"
-                          letterSpacing="-0.02em"
-                        >
-                          {t(`items.${ministry.slug}.title`)}
-                        </Heading>
-                        <Text color="ink.muted" fontSize="sm">
-                          {t(`items.${ministry.slug}.description`)}
-                        </Text>
-                      </Stack>
+                      />
                     </Reveal>
                   ))}
                 </SimpleGrid>

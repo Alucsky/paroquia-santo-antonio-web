@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import type { CSSProperties } from "react";
 import { saintPortrait } from "@/content/gallery";
 
 export function SaintHero() {
@@ -52,7 +53,9 @@ export function SaintHero() {
               textStyle="display"
               fontWeight="500"
               fontSize={{ base: "5xl", sm: "6xl", md: "7xl", xl: "8xl" }}
-              animation="slide-from-bottom 0.9s cubic-bezier(0.2,0.7,0.2,1)"
+              animation="rise 0.8s cubic-bezier(0.2,0.7,0.2,1) both"
+              data-intro-delay=""
+              style={{ "--intro-delay": "1.15s" } as CSSProperties}
             >
               {t("hero.titleLead")}{" "}
               <Text as="span" fontStyle="italic" color="accent.onDark">
@@ -100,7 +103,9 @@ export function SaintHero() {
               rounded="card"
               overflow="hidden"
               boxShadow="0 40px 80px -30px rgba(0,0,0,0.8)"
-              animation="fade-in 1.2s ease-out"
+              animation="rise 0.9s cubic-bezier(0.2,0.7,0.2,1) both"
+              data-intro-delay=""
+              style={{ "--intro-delay": "1.25s" } as CSSProperties}
             >
               <Image
                 src={saintPortrait.src}

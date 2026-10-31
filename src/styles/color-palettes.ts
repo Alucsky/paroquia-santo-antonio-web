@@ -12,6 +12,8 @@ export const terracotta = {
   950: "#33120d",
 };
 
+export const parchment = "#fbf6ea";
+
 export const gold = {
   50: "#fbf7ec",
   100: "#f5ebcd",

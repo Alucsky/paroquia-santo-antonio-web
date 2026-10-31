@@ -90,11 +90,12 @@ export default function ContactPage() {
         <Container maxW="page" px={{ base: "5", md: "8" }}>
           <SimpleGrid
             columns={{ base: 1, sm: 2, lg: 3 }}
-            gap={{ base: "3", md: "5" }}
+            gap={{ base: "6", md: "8" }}
           >
             {channels.map((channel, index) => (
               <Reveal key={channel.key} delay={index % 3}>
                 <InfoCard
+                  index={index}
                   icon={channel.icon}
                   eyebrow={t(`channels.${channel.key}.label`)}
                   title={channel.value}

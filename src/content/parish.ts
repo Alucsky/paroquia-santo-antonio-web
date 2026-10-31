@@ -19,7 +19,7 @@ export const parish = {
     phone: "(46) 3536-1108",
     whatsapp: "(46) 98814-8964",
     catechesisWhatsapp: "(46) 99903-5168",
-    email: "santoantoniodoisvizinhos@outlook.com",
+    email: "santoantoniodoisvizinhos@gmail.com",
   },
   social: {
     instagram: "https://www.instagram.com/paroquiasantoantoniodv",
