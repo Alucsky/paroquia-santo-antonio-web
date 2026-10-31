@@ -54,5 +54,5 @@ Ver [ADRs](../adr/).
 |---|---|
 | Horário desatualizado no site | Guia de conteúdo + aviso de que feriados alteram horários + link para o Instagram |
 | Tradução esquecida | Teste de paridade de chaves entre idiomas |
-| Mudança quebrar o layout no celular | Revisão obrigatória por PR + preview da Vercel |
+| Mudança quebrar o layout no celular | Revisão obrigatória por PR + CI + conferência local da branch |
 | Fotos antigas em baixa resolução | Hero com foto de 1400px; galeria em grid com recorte controlado |
