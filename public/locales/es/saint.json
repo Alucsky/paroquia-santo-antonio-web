@@ -1,0 +1,82 @@
+{
+  "seo": {
+    "title": "San Antonio de Padua",
+    "description": "La vida de San Antonio de Padua, patrono de la parroquia de Dois Vizinhos: de Lisboa a Padua, su predicación, milagros, devociones y su llegada a nuestra ciudad."
+  },
+  "hero": {
+    "eyebrow": "Nuestro patrono",
+    "titleLead": "San Antonio",
+    "titleHighlight": "de Padua",
+    "lead": "Nació Fernando, en Lisboa. Se convirtió en Antonio, fraile franciscano, predicador de los papas y doctor de la Iglesia. Ocho siglos después sigue siendo uno de los santos más queridos del mundo — y el patrono de Dois Vizinhos.",
+    "facts": {
+      "born": { "label": "Nacimiento", "value": "Lisboa, 1195" },
+      "died": { "label": "Muerte", "value": "Padua, 1231" },
+      "feast": { "label": "Fiesta", "value": "13 de junio" }
+    }
+  },
+  "portrait": {
+    "alt": "Pintura de Francisco de Zurbarán: San Antonio arrodillado, con hábito franciscano y las manos juntas, contempla al Niño Jesús que aparece en una luz dorada; a sus pies, un libro abierto y lirios blancos",
+    "caption": "Francisco de Zurbarán, “Aparición del Niño Jesús a San Antonio de Padua”, c. 1627–1630. Museo de Arte de São Paulo (MASP). Obra de dominio público.",
+    "source": "Ver fuente"
+  },
+  "marquee": ["Doctor Evangélico", "Martillo de los herejes", "Amigo de los pobres", "Santo de todo el mundo", "Ruega por nosotros"],
+  "timeline": {
+    "eyebrow": "Una vida en diez momentos",
+    "title": "De Lisboa a Padua.",
+    "lead": "San Antonio vivió solo 36 años. Le bastaron para cambiar de nombre, de orden, de país — y dejar su huella en la historia de la Iglesia.",
+    "items": [
+      { "year": "1195", "title": "Nace Fernando, en Lisboa", "description": "Según la tradición, Fernando de Bulhões nace el 15 de agosto en una familia noble, cerca de la catedral de Lisboa." },
+      { "year": "1210", "title": "Una vida religiosa temprana", "description": "A los 15 años ingresa en los Canónigos Regulares de San Agustín. En el Monasterio de Santa Cruz, en Coímbra, se dedica al estudio profundo de las Escrituras." },
+      { "year": "1220", "title": "Se hace franciscano", "description": "Conmovido por los primeros mártires franciscanos, muertos en Marruecos, cambia el hábito agustino por el de San Francisco y toma el nombre de Antonio." },
+      { "year": "1221", "title": "El naufragio y el encuentro con Francisco", "description": "Parte en misión a África, enferma y, al regresar, una tormenta lleva su barco a Sicilia. En Asís participa en el Capítulo de las Esteras, junto a San Francisco." },
+      { "year": "1222", "title": "El predicador revelado", "description": "En Forlì, invitado a última hora a predicar en una ordenación, sorprende a todos con su sabiduría. Comienza una intensa misión por Italia y Francia." },
+      { "year": "1224", "title": "Primer maestro de teología", "description": "San Francisco le autoriza a enseñar teología a los frailes, siempre que el estudio no apague el espíritu de oración y devoción." },
+      { "year": "1231", "title": "“Veo a mi Señor”", "description": "Enfermo y agotado, muere el 13 de junio en Arcella, cerca de Padua. Se cuenta que los niños de la ciudad salieron a las calles anunciando: ha muerto el santo." },
+      { "year": "1232", "title": "Santo en menos de un año", "description": "El 30 de mayo, el papa Gregorio IX lo canoniza — una de las canonizaciones más rápidas de la historia de la Iglesia." },
+      { "year": "1263", "title": "La lengua incorrupta", "description": "Al trasladar sus restos, San Buenaventura encuentra intacta la lengua del gran predicador. La reliquia se venera hasta hoy en la Basílica de Padua." },
+      { "year": "1946", "title": "Doctor de la Iglesia", "description": "El papa Pío XII lo proclama Doctor de la Iglesia, con el título de Doctor Evangélico, por la fidelidad y profundidad de su predicación." }
+    ]
+  },
+  "symbols": {
+    "eyebrow": "Leyendo la pintura",
+    "title": "Lo que significa cada detalle.",
+    "lead": "El arte cristiano enseña con imágenes. En el lienzo de Zurbarán, cuatro símbolos cuentan quién fue San Antonio.",
+    "items": {
+      "child": { "title": "El Niño Jesús", "description": "Recuerda la visión que tuvo el santo en oración, cuando el Niño se le apareció. Es signo de la intimidad de Antonio con Cristo." },
+      "book": { "title": "El libro abierto", "description": "Son las Sagradas Escrituras, que conocía de memoria. Recuerda al predicador y Doctor de la Iglesia." },
+      "lily": { "title": "Los lirios", "description": "Símbolo de la pureza de corazón y de una vida entregada por completo a Dios." },
+      "habit": { "title": "El hábito franciscano", "description": "La tela sencilla y el cordón hablan de pobreza, humildad y de la decisión de seguir a Jesús como San Francisco." }
+    }
+  },
+  "devotions": {
+    "eyebrow": "Devociones populares",
+    "title": "Cómo reza el pueblo con San Antonio.",
+    "lead": "A lo largo de los siglos, la fe sencilla del pueblo creó tradiciones que cruzaron el océano y llegaron hasta nosotros.",
+    "items": {
+      "novena": { "title": "Trecena", "description": "Trece días de oración, del 1 al 13 de junio, preparan la fiesta del patrono. En Dois Vizinhos se une a la kermés y a la gran fiesta de la comunidad." },
+      "bread": { "title": "Pan de San Antonio", "description": "Inspirado en la caridad del santo con los hambrientos, el pan bendecido el día 13 recuerda que la fe se prueba compartiendo con los más pobres." },
+      "lost": { "title": "Protector de las cosas perdidas", "description": "Cuenta la tradición que un libro de salmos tomado sin permiso fue devuelto tras la oración del santo. Desde entonces se pide su ayuda para encontrar lo perdido." },
+      "marriage": { "title": "El santo casamentero", "description": "Por su fama de ayudar a los jóvenes a formar familia, se convirtió en patrono de los enamorados en Brasil — y junio es el mes de las fiestas y los pedidos." }
+    }
+  },
+  "town": {
+    "eyebrow": "San Antonio en Dois Vizinhos",
+    "title": "Llegó antes que la ciudad.",
+    "lead": "En {{arrival}}, los primeros devotos llevaron a San Antonio a una pequeña aldea del suroeste de Paraná. En {{founded}}, la capilla de la plaza central fue elevada a parroquia — incluso antes de que Dois Vizinhos fuera municipio.",
+    "quote": "San Antonio llegó a Dois Vizinhos antes que el primer alcalde.",
+    "quoteSource": "Valdir Luiz Pagnoncelli, “Historia de los 40 años de la Parroquia San Antonio de Padua”",
+    "imageAlt": "Altar de la iglesia Matriz San Antonio de Padua, con la gran cruz bajo el arco"
+  },
+  "prayer": {
+    "eyebrow": "Oración",
+    "title": "Oración a San Antonio",
+    "lines": [
+      "Glorioso San Antonio, amigo de los pobres y predicador del Evangelio,",
+      "intercede por nuestra parroquia y por cada familia de Dois Vizinhos.",
+      "Ayúdanos a encontrar lo que hemos perdido y, sobre todo, a no perder la fe.",
+      "Enséñanos a amar la Palabra de Dios y a servir a los hermanos con alegría.",
+      "Amén."
+    ],
+    "closing": "¡San Antonio, ruega por nosotros!"
+  }
+}

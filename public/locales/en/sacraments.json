@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Sacraments",
+    "description": "How to schedule a baptism or wedding at Saint Anthony of Padua Parish in Dois Vizinhos: dates, preparation and required documents."
+  },
+  "hero": {
+    "eyebrow": "Sacraments",
+    "title": "The most important moments of your life of faith.",
+    "lead": "Dates, preparation and required documents, explained simply. Tick each item on the list as you gather it."
+  },
+  "checklist": {
+    "title": "Required documents",
+    "progress": "{{done}} of {{total}}",
+    "progressLabel": "Documents gathered",
+    "hint": "This list is just to help you get organized. Bring the documents to the parish office."
+  },
+  "baptism": {
+    "eyebrow": "Baptism",
+    "title": "Baptism",
+    "lead": "The first sacrament, the doorway to Christian life. Parents and godparents attend preparation sessions before the celebration.",
+    "schedule": [
+      { "label": "When", "value": "Every 4th Saturday of the month" },
+      { "label": "Time", "value": "9 am, at the main church" }
+    ],
+    "documents": [
+      "Child's birth certificate",
+      "Baptism preparation booklet",
+      "Up-to-date tithe receipt for parents and godparents",
+      "Proof that godparents attended the preparation",
+      "Religious marriage certificate of the parents and/or godparents"
+    ],
+    "notes": [
+      "Parents or godparents from another parish must bring an authorization signed by their parish priest.",
+      "Contact the parish office in advance to book the date and the preparation sessions."
+    ],
+    "action": "Schedule on WhatsApp",
+    "whatsappMessage": "Hello! I'd like information about scheduling a baptism."
+  },
+  "marriage": {
+    "eyebrow": "Matrimony",
+    "title": "Wedding",
+    "lead": "The sacrament that unites the couple before God and the community. The couple attends marriage preparation and submits documents in advance.",
+    "schedule": [
+      { "label": "Ceremonies", "value": "Saturdays, 5 pm and 8 pm" },
+      { "label": "Convalidation", "value": "Wednesdays, 7 pm" },
+      { "label": "Notice", "value": "Register 60 days before" }
+    ],
+    "documents": [
+      "Baptism and confirmation certificates of the couple",
+      "Up-to-date tithe receipt for the couple",
+      "Marriage preparation certificate",
+      "Civil marriage statement",
+      "Copy of the couple's ID and CPF",
+      "Proof of address for the couple",
+      "Names of two witness couples",
+      "Proof of address for the witnesses",
+      "Copy of the sponsors' ID and CPF",
+      "Proof of the sponsors' religious marriage"
+    ],
+    "notes": [
+      "Other days and times can be arranged directly with the priests.",
+      "Convalidation is the religious ceremony for couples already living together or married only civilly."
+    ],
+    "action": "Ask about weddings",
+    "whatsappMessage": "Hello! I'd like information about getting married at the parish."
+  },
+  "others": {
+    "eyebrow": "Other sacraments",
+    "title": "We are with you in these moments too.",
+    "lead": "First Communion and Confirmation happen through catechesis. For confession and anointing of the sick, reach out to the priests.",
+    "items": {
+      "eucharist": { "title": "First Communion", "description": "Preparation through parish catechesis, with classes for children and teenagers.", "action": "Catechesis WhatsApp" },
+      "confirmation": { "title": "Confirmation", "description": "Confirmation of faith for teens, young people and adults, with registration through catechesis.", "action": "Catechesis WhatsApp" },
+      "confession": { "title": "Confession", "description": "The priests are available on Wednesdays. During Lent and Advent there are special confession days.", "action": "Arrange a time" },
+      "anointing": { "title": "Anointing of the sick", "description": "For the sick and elderly. In an emergency, contact the parish office to call a priest.", "action": "Contact the office" }
+    }
+  }
+}

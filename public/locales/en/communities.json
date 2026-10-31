@@ -1,0 +1,128 @@
+{
+  "seo": {
+    "title": "Communities and neighborhoods",
+    "description": "The rural communities and city neighborhoods of Saint Anthony of Padua Parish in Dois Vizinhos: patron saints, stories and the families who welcomed them."
+  },
+  "hero": {
+    "eyebrow": "Communities and neighborhoods",
+    "title": "{{count}} communities, one family.",
+    "lead": "Each community has its patron saint, its chapel and its story. Discover when the faith arrived in each place and who welcomed it."
+  },
+  "kinds": {
+    "community": "Community",
+    "neighborhood": "Neighborhood"
+  },
+  "patronLabel": "Patron saint",
+  "arrival": {
+    "year": "Patron welcomed in {{year}}",
+    "circa": "Patron welcomed around {{year}}",
+    "decade": "Patron welcomed in the {{year}}s"
+  },
+  "familiesLabel": "Families who welcomed the patron",
+  "showStory": "Read the story",
+  "hideStory": "Hide story",
+  "filters": {
+    "label": "Filter by type",
+    "all": "All",
+    "community": "Communities",
+    "neighborhood": "Neighborhoods"
+  },
+  "search": {
+    "label": "Search community or patron",
+    "placeholder": "Search by name or patron"
+  },
+  "results_one": "{{count}} result",
+  "results_other": "{{count}} results",
+  "empty": "No community found. Try another name.",
+  "items": {
+    "sao-jose-do-canoas": {
+      "patron": "Saint Joseph",
+      "charism": "A humble carpenter and foster father of Jesus, Saint Joseph is a model of a just, hard-working man. That is why so many families place themselves under his protection."
+    },
+    "santa-terezinha": {
+      "patron": "Saint Thérèse of the Child Jesus",
+      "charism": "Patroness of the missions, Saint Thérèse protects all who proclaim the Gospel around the world. May she encourage missionaries never to give up."
+    },
+    "sao-judas-tadeu-jacutinga": {
+      "patron": "Saint Jude Thaddeus",
+      "charism": "One of the most popular saints, known as the patron of impossible causes. In his letter he urged Christians to keep their faith pure."
+    },
+    "linha-benetti": {
+      "patron": "Saint Catherine of Alexandria",
+      "charism": "A convert to Christianity, Saint Catherine was martyred for refusing to deny her faith. She is invoked by those who work with wheels, such as drivers and millers."
+    },
+    "linha-ibiaca": {
+      "patron": "Our Lady Consolata",
+      "charism": "Devotion to the Mother of Consolation began in Turin, before an ancient image of the Virgin. Since then people have turned to her above all in illness and suffering."
+    },
+    "sao-luiz": {
+      "patron": "Saint Aloysius Gonzaga",
+      "charism": "Born in 1568 to a wealthy Italian family, he chose charity from childhood. He died at 23 caring for plague victims and is the patron of youth."
+    },
+    "volta-grande": {
+      "patron": "Saint Joseph the Worker",
+      "charism": "A just and hard-working man, Saint Joseph accepted to be the father of Jesus and the husband of Mary, Mother of the Savior. He is the model for sanctifying daily work."
+    },
+    "flor-da-serra": {
+      "patron": "Saint Stanislaus",
+      "charism": "Bishop and martyr of Poland, Saint Stanislaus gave his life defending the Gospel and the dignity of his people."
+    },
+    "sao-cristovao": {
+      "patron": "Saint Christopher",
+      "charism": "Protector of drivers and farmers. Many devotees come to ask his blessing for journeys, work in the fields and school transport."
+    },
+    "santa-cruz": {
+      "patron": "Saint Roch",
+      "charism": "Known as the kind saint, he shared his inheritance with the poor and cared for plague victims. He is also invoked as protector of animals."
+    },
+    "sao-bras": {
+      "patron": "Saint Blaise",
+      "charism": "Chosen by the devotion of the pioneer families, Saint Blaise is the protector of the throat and watches over the community's homes."
+    },
+    "sao-francisco-do-bandeira": {
+      "patron": "Saint Francis of Assisi",
+      "charism": "Patron of ecology, Francis took the Gospel literally: he lived poverty, loved the poor and cared for all creation."
+    },
+    "sao-miguel-do-canoas": {
+      "patron": "Saint Michael the Archangel",
+      "charism": "Prince of the angels and defender against evil, Saint Michael protects families and is remembered as the saint of perseverance."
+    },
+    "santa-luzia-do-bandeira": {
+      "patron": "Saint Lucy",
+      "charism": "A young martyr of great faith, she consecrated her life to Christ. She is the protector of the eyes and of sight."
+    },
+    "piracema": {
+      "patron": "Patroness of the community",
+      "charism": "The faithful welcomed their patroness as a blessing for everyone. Since her arrival, many have witnessed graces received through her intercession."
+    },
+    "sao-pedro-do-bandeira": {
+      "patron": "Saint Peter",
+      "charism": "A fisherman who became a fisher of men, he was the first Pope of the Church. He protects fishermen and widows; his feast is on June 29."
+    },
+    "vila-canarinho": {
+      "patron": "Our Lady of Graces",
+      "charism": "Mother of all humanity and servant of the Lord, Mary remains attentive to the needs of her children, just as she was to Jesus."
+    },
+    "sao-francisco-de-assis": {
+      "patron": "Saint Francis of Assisi",
+      "charism": "Francis knew Saint Anthony and guided him in Franciscan life. He lived simply, loved creation and had a special tenderness for the poor."
+    },
+    "margarida-galvan": {
+      "patron": "Our Lady of Fátima",
+      "charism": "At Fátima, Our Lady asked the shepherd children not to be afraid and to pray the rosary every day for peace in the world."
+    },
+    "bairro-da-luz": {
+      "patron": "Our Lady of Light",
+      "charism": "The neighborhood's name comes from the residents' devotion to Our Lady of Light, whose light reaches every member of the parish."
+    },
+    "jardim-da-colina": {
+      "patron": "Saint Joseph",
+      "charism": "Foster father of Jesus, Saint Joseph is a model head of the family, respectful husband and worker. He is also patron of a holy death."
+    },
+    "vitoria": {
+      "patron": "Our Lady of Graces",
+      "charism": "Also called Our Lady of the Miraculous Medal. The neighborhood's families credit her with the grace of owning their own homes."
+    }
+  },
+  "results_zero": "No results"
+}

@@ -1,0 +1,20 @@
+{
+  "seo": {
+    "title": "Contacto",
+    "description": "Comunícate con la Parroquia San Antonio de Padua, en Dois Vizinhos: WhatsApp, teléfono, correo, dirección y horarios de la secretaría."
+  },
+  "hero": {
+    "eyebrow": "Contacto",
+    "title": "Habla con nosotros.",
+    "lead": "La forma más rápida es el WhatsApp de la secretaría. También atendemos por teléfono, correo y, por supuesto, en persona."
+  },
+  "channels": {
+    "whatsapp": { "label": "WhatsApp de la secretaría", "description": "Agendamientos, dudas e información general.", "action": "Enviar mensaje" },
+    "phone": { "label": "Teléfono", "description": "Atención en horario de secretaría.", "action": "Llamar ahora" },
+    "email": { "label": "Correo", "description": "Para asuntos que necesitan documentos o más detalles.", "action": "Escribir correo" },
+    "catechesis": { "label": "WhatsApp de la catequesis", "description": "Inscripciones e información sobre Primera Comunión y Confirmación.", "action": "Hablar con la catequesis" },
+    "instagram": { "label": "Instagram", "description": "Avisos de la semana, fotos y transmisiones de la comunidad.", "action": "Seguir a la parroquia" },
+    "youtube": { "label": "Canal de la parroquia", "description": "Videos de las celebraciones, la trecena y los encuentros.", "action": "Ver" }
+  },
+  "office": { "eyebrow": "Horarios", "title": "Cuándo atiende la secretaría" }
+}

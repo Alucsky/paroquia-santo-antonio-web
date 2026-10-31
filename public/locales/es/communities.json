@@ -1,0 +1,128 @@
+{
+  "seo": {
+    "title": "Comunidades y barrios",
+    "description": "Las comunidades rurales y los barrios de la Parroquia San Antonio de Padua, en Dois Vizinhos: patronos, historias y las familias que los acogieron."
+  },
+  "hero": {
+    "eyebrow": "Comunidades y barrios",
+    "title": "{{count}} comunidades, una sola familia.",
+    "lead": "Cada comunidad tiene su patrono, su capilla y su historia. Descubre cuándo llegó la fe a cada lugar y quién la acogió."
+  },
+  "kinds": {
+    "community": "Comunidad",
+    "neighborhood": "Barrio"
+  },
+  "patronLabel": "Patrono(a)",
+  "arrival": {
+    "year": "Patrono acogido en {{year}}",
+    "circa": "Patrono acogido hacia {{year}}",
+    "decade": "Patrono acogido en la década de {{year}}"
+  },
+  "familiesLabel": "Familias que lo acogieron",
+  "showStory": "Ver historia",
+  "hideStory": "Ocultar historia",
+  "filters": {
+    "label": "Filtrar por tipo",
+    "all": "Todas",
+    "community": "Comunidades",
+    "neighborhood": "Barrios"
+  },
+  "search": {
+    "label": "Buscar comunidad o patrono",
+    "placeholder": "Buscar por nombre o patrono"
+  },
+  "results_one": "{{count}} resultado",
+  "results_other": "{{count}} resultados",
+  "empty": "No se encontró ninguna comunidad. Prueba con otro nombre.",
+  "items": {
+    "sao-jose-do-canoas": {
+      "patron": "San José",
+      "charism": "Humilde carpintero y padre adoptivo de Jesús, San José es ejemplo de hombre justo y trabajador. Por eso tantas familias se ponen bajo su protección."
+    },
+    "santa-terezinha": {
+      "patron": "Santa Teresita del Niño Jesús",
+      "charism": "Patrona de las misiones, Santa Teresita protege a todos los que anuncian el Evangelio por el mundo. Que anime a los misioneros a nunca desistir."
+    },
+    "sao-judas-tadeu-jacutinga": {
+      "patron": "San Judas Tadeo",
+      "charism": "Uno de los santos más populares, conocido como el santo de las causas imposibles. En su carta pedía a los cristianos guardar la pureza de la fe."
+    },
+    "linha-benetti": {
+      "patron": "Santa Catalina de Alejandría",
+      "charism": "Convertida al cristianismo, Santa Catalina fue martirizada por no renunciar a su fe. La invocan quienes trabajan con ruedas, como conductores y molineros."
+    },
+    "linha-ibiaca": {
+      "patron": "Nuestra Señora de la Consolata",
+      "charism": "La devoción a la Madre del Consuelo nació en Turín, ante una antigua imagen de la Virgen. Desde entonces el pueblo acude a ella sobre todo en la enfermedad y el sufrimiento."
+    },
+    "sao-luiz": {
+      "patron": "San Luis Gonzaga",
+      "charism": "Nacido en 1568 en una familia rica de Italia, eligió la caridad desde niño. Murió a los 23 años cuidando enfermos de peste y es el protector de la juventud."
+    },
+    "volta-grande": {
+      "patron": "San José Obrero",
+      "charism": "Hombre justo y trabajador, San José aceptó ser padre de Jesús y esposo de María, la Madre del Salvador. Es modelo de quien santifica el trabajo diario."
+    },
+    "flor-da-serra": {
+      "patron": "San Estanislao",
+      "charism": "Obispo y mártir de Polonia, San Estanislao dio la vida defendiendo el Evangelio y la dignidad de su pueblo."
+    },
+    "sao-cristovao": {
+      "patron": "San Cristóbal",
+      "charism": "Protector de los conductores y de los agricultores. Muchos devotos vienen a pedir su bendición para los viajes, el trabajo en el campo y el transporte escolar."
+    },
+    "santa-cruz": {
+      "patron": "San Roque",
+      "charism": "Conocido como el santo bondadoso, repartió su herencia con los pobres y cuidó de las víctimas de la peste. También se le invoca como protector de los animales."
+    },
+    "sao-bras": {
+      "patron": "San Blas",
+      "charism": "Elegido por la devoción de las familias pioneras, San Blas es el protector de la garganta y cuida los hogares de la comunidad."
+    },
+    "sao-francisco-do-bandeira": {
+      "patron": "San Francisco de Asís",
+      "charism": "Patrono de la ecología, Francisco tomó el Evangelio al pie de la letra: vivió la pobreza, amó a los pobres y cuidó de toda la creación."
+    },
+    "sao-miguel-do-canoas": {
+      "patron": "San Miguel Arcángel",
+      "charism": "Príncipe de los ángeles y defensor contra el mal, San Miguel protege a las familias y es recordado como el santo de la perseverancia."
+    },
+    "santa-luzia-do-bandeira": {
+      "patron": "Santa Lucía",
+      "charism": "Joven mártir de gran fe, consagró su vida a Cristo. Es la protectora de los ojos y de la vista."
+    },
+    "piracema": {
+      "patron": "Patrona de la comunidad",
+      "charism": "Los fieles recibieron a su patrona como una bendición para todos. Desde su llegada, muchos dan testimonio de gracias alcanzadas por su intercesión."
+    },
+    "sao-pedro-do-bandeira": {
+      "patron": "San Pedro",
+      "charism": "Pescador que se convirtió en pescador de hombres, fue el primer papa de la Iglesia. Protege a los pescadores y a las viudas; su fiesta es el 29 de junio."
+    },
+    "vila-canarinho": {
+      "patron": "Nuestra Señora de las Gracias",
+      "charism": "Madre de toda la humanidad y sierva del Señor, María permanece atenta a las necesidades de sus hijos, como lo estuvo con Jesús."
+    },
+    "sao-francisco-de-assis": {
+      "patron": "San Francisco de Asís",
+      "charism": "Francisco convivió con San Antonio y lo orientó en la vida franciscana. Vivió en la sencillez, amó la creación y tuvo un cariño especial por los pobres."
+    },
+    "margarida-galvan": {
+      "patron": "Nuestra Señora de Fátima",
+      "charism": "En Fátima, la Virgen pidió a los pastorcitos que no tuvieran miedo y que rezaran el rosario todos los días por la paz en el mundo."
+    },
+    "bairro-da-luz": {
+      "patron": "Nuestra Señora de la Luz",
+      "charism": "El nombre del barrio nació de la devoción de sus vecinos a Nuestra Señora de la Luz, cuya luz llega a todos los fieles de la parroquia."
+    },
+    "jardim-da-colina": {
+      "patron": "San José",
+      "charism": "Padre adoptivo de Jesús, San José es modelo de jefe de familia, esposo respetuoso y trabajador. También es patrono de la buena muerte."
+    },
+    "vitoria": {
+      "patron": "Nuestra Señora de las Gracias",
+      "charism": "También llamada Virgen de la Medalla Milagrosa. Las familias del barrio le atribuyen la gracia de haber conseguido casa propia."
+    }
+  },
+  "results_zero": "Ningún resultado"
+}

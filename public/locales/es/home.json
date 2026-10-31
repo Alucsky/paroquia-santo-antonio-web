@@ -1,0 +1,97 @@
+{
+  "seo": {
+    "description": "Parroquia San Antonio de Padua, en Dois Vizinhos (Brasil): horarios de misa, sacramentos, comunidades, pastorales y la historia de nuestro patrono."
+  },
+  "hero": {
+    "eyebrow": "Dois Vizinhos · Paraná · desde {{year}}",
+    "titleLead": "Parroquia San Antonio",
+    "titleHighlight": "de Padua",
+    "lead": "Una comunidad de fe que celebra, acoge y sirve. Aquí encuentras los horarios de misa, los sacramentos y el camino para formar parte.",
+    "primaryAction": "Ver horarios de misa",
+    "secondaryAction": "Cómo llegar",
+    "imageAlt": "Vista aérea de la iglesia Matriz San Antonio de Padua, con el techo rojo en arco, la fachada calada y la torre con la cruz, en el centro de Dois Vizinhos",
+    "mobileImageAlt": "Interior de la iglesia Matriz lleno de fieles, con el pasillo central de madera que lleva al altar y a la gran cruz",
+    "upcomingTitle": "Próximas celebraciones",
+    "upcomingPlace": "Iglesia Matriz",
+    "fullSchedule": "Ver todos los horarios"
+  },
+  "marquee": [
+    "San Antonio, ruega por nosotros",
+    "Fe que acoge",
+    "Comunidad que sirve",
+    "Palabra que transforma",
+    "Desde 1959 en Dois Vizinhos"
+  ],
+  "quickActions": {
+    "eyebrow": "Lo que buscas",
+    "title": "Todo lo que necesitas, a un toque.",
+    "lead": "Los temas más consultados en la secretaría, organizados para que los resuelvas rápido desde el celular.",
+    "items": {
+      "schedule": {
+        "title": "Horarios de misa",
+        "description": "Misas de la semana, celebraciones del mes y adoración al Santísimo."
+      },
+      "baptism": {
+        "title": "Bautizo",
+        "description": "Fechas, preparación y la lista de documentos para padres y padrinos."
+      },
+      "wedding": {
+        "title": "Boda",
+        "description": "Horarios de las celebraciones, plazos y documentos de los novios."
+      },
+      "secretary": {
+        "title": "Secretaría",
+        "description": "Habla directamente con la secretaría parroquial por WhatsApp."
+      }
+    }
+  },
+  "patron": {
+    "eyebrow": "Nuestro patrono",
+    "title": "San Antonio de Padua, el santo de todo el mundo.",
+    "lead": "Predicador incansable, doctor de la Iglesia y amigo de los pobres. Llegó a Dois Vizinhos con los primeros pobladores y aún hoy da nombre y alma a nuestra parroquia.",
+    "quote": "Que callen las palabras y hablen las obras.",
+    "quoteSource": "San Antonio, Sermones",
+    "action": "Conocer su historia",
+    "imageAlt": "Pintura de San Antonio de Padua arrodillado, con hábito franciscano, mirando al Niño Jesús que aparece en la luz"
+  },
+  "weekly": {
+    "eyebrow": "Semana en la Matriz",
+    "title": "Horarios de misa",
+    "lead": "Celebraciones fijas de la iglesia Matriz. En feriados y fiestas los horarios pueden cambiar — sigue los avisos."
+  },
+  "community": {
+    "eyebrow": "Iglesia viva",
+    "title": "Una parroquia hecha de muchas comunidades.",
+    "lead": "Desde el campo hasta los barrios de la ciudad, cada comunidad acogió a su patrono y mantiene viva la fe. Las pastorales y movimientos llevan esa fe a la vida diaria.",
+    "communitiesAction": "Conocer las comunidades",
+    "ministriesAction": "Ver pastorales",
+    "stats": {
+      "communities": {
+        "title": "Comunidades rurales",
+        "description": "Capillas en el interior de Dois Vizinhos."
+      },
+      "neighborhoods": {
+        "title": "Barrios de la ciudad",
+        "description": "Comunidades urbanas con patrono y vida propia."
+      },
+      "ministries": {
+        "title": "Pastorales y movimientos",
+        "description": "Grupos que sirven en la liturgia, la formación y la caridad."
+      }
+    },
+    "more": "+ {{count}} comunidades"
+  },
+  "gallery": {
+    "eyebrow": "Vida parroquial",
+    "title": "Momentos que cuentan nuestra historia.",
+    "lead": "Celebraciones, sacramentos y encuentros que reúnen a la comunidad a lo largo del año.",
+    "items": {
+      "choir": "Coro reunido ante el altar de la Matriz",
+      "baptism": "Celebración de bautismo",
+      "patronFeast": "Sacerdotes en la fiesta del patrono",
+      "confirmation": "Celebración de la Confirmación",
+      "missionaryChildhood": "Encuentro de la Infancia y Adolescencia Misionera",
+      "ministers": "Ministros reunidos en formación"
+    }
+  }
+}

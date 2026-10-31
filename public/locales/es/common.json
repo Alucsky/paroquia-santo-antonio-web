@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Santo Antônio",
+    "place": "Dois Vizinhos · PR",
+    "fullName": "Parroquia San Antonio de Padua",
+    "homeLabel": "Parroquia San Antonio de Padua, página de inicio"
+  },
+  "skipToContent": "Saltar al contenido",
+  "navigation": {
+    "home": "Inicio",
+    "schedule": "Horarios",
+    "sacraments": "Sacramentos",
+    "saint": "San Antonio",
+    "communities": "Comunidades",
+    "ministries": "Pastorales",
+    "parish": "La Parroquia",
+    "contact": "Contacto"
+  },
+  "menu": {
+    "open": "Abrir menú",
+    "close": "Cerrar menú",
+    "label": "Navegación principal"
+  },
+  "language": {
+    "label": "Idioma",
+    "names": {
+      "pt": "Português",
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "actions": {
+    "whatsappSecretary": "Hablar con la secretaría"
+  },
+  "quickBar": {
+    "label": "Accesos rápidos",
+    "schedule": "Horarios",
+    "whatsapp": "WhatsApp",
+    "directions": "Cómo llegar"
+  },
+  "footer": {
+    "tagline": "Comunidad católica de Dois Vizinhos, en el suroeste de Paraná, Brasil. Unidos en la fe, la caridad y la devoción a San Antonio desde 1959.",
+    "instagram": "Instagram de la parroquia",
+    "youtube": "Canal de la parroquia en YouTube",
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "usefulLinks": "Enlaces útiles",
+    "rights": "Todos los derechos reservados.",
+    "developedBy": "Desarrollado por"
+  },
+  "externalLinks": {
+    "liturgy": "Liturgia diaria (CNBB)",
+    "bible": "Biblia católica en línea",
+    "saintOfTheDay": "Santo del día",
+    "diocese": "Curia diocesana",
+    "vatican": "Santa Sede"
+  },
+  "upcoming": {
+    "today": "Hoy",
+    "tomorrow": "Mañana"
+  },
+  "celebrations": {
+    "sunday-morning-mass": {
+      "title": "Misa dominical"
+    },
+    "sunday-evening-mass": {
+      "title": "Misa dominical"
+    },
+    "health-mass": {
+      "title": "Misa por los enfermos"
+    },
+    "sacred-heart-mass": {
+      "title": "Misa del Sagrado Corazón de Jesús"
+    },
+    "eucharistic-adoration": {
+      "title": "Adoración al Santísimo"
+    }
+  },
+  "weekly": {
+    "noMass": "Sin misa en la Matriz"
+  },
+  "officeHours": {
+    "secretary": "Secretaría parroquial",
+    "priests": "Atención de los sacerdotes",
+    "morning": "Mañana",
+    "afternoon": "Tarde"
+  },
+  "visit": {
+    "eyebrow": "Ven a visitarnos",
+    "title": "La Matriz está en el corazón de Dois Vizinhos. Las puertas están abiertas para ti.",
+    "googleMaps": "Abrir en Google Maps",
+    "waze": "Ir con Waze",
+    "call": "Llamar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La dirección que buscabas no existe o cambió de lugar. Así como San Antonio ayuda a encontrar lo perdido, te llevamos de vuelta.",
+    "action": "Volver al inicio"
+  },
+  "serverError": {
+    "title": "Algo salió mal",
+    "description": "Tuvimos un problema al abrir esta página. Inténtalo de nuevo en unos instantes."
+  }
+}

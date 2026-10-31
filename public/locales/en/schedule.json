@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Mass times",
+    "description": "Mass times at Saint Anthony of Padua church in Dois Vizinhos, monthly celebrations, Eucharistic adoration and parish office hours."
+  },
+  "hero": {
+    "eyebrow": "Mass times",
+    "title": "When we celebrate together.",
+    "lead": "Masses at the main church, monthly celebrations and office hours for the parish office and the priests."
+  },
+  "upcoming": { "title": "Upcoming celebrations at the main church" },
+  "notice": {
+    "title": "Holidays, feast days and liturgical seasons may change these times.",
+    "description": "Weekly announcements are posted on Instagram {{instagram}}. If in doubt, message the parish office on WhatsApp."
+  },
+  "weekly": { "eyebrow": "Every week", "title": "Masses at the main church" },
+  "monthly": {
+    "eyebrow": "Every month",
+    "title": "Monthly celebrations",
+    "items": {
+      "sacred-heart-mass": { "when": "First Friday of the month", "description": "Mass in honor of the Sacred Heart of Jesus, the First Friday devotion." },
+      "eucharistic-adoration": { "when": "Every 13th", "description": "All-day adoration of the Blessed Sacrament from 8:30 am, on the day dedicated to Saint Anthony." }
+    }
+  },
+  "office": {
+    "eyebrow": "Office hours",
+    "title": "Parish office and priests",
+    "lead": "To schedule sacraments, request documents, book Mass intentions or talk with a priest."
+  }
+}

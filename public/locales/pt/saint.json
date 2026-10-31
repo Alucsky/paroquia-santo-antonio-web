@@ -1,0 +1,152 @@
+{
+  "seo": {
+    "title": "Santo Antônio de Pádua",
+    "description": "A vida de Santo Antônio de Pádua, padroeiro da paróquia de Dois Vizinhos: de Lisboa a Pádua, a pregação, os milagres, as devoções e a chegada do santo à nossa cidade."
+  },
+  "hero": {
+    "eyebrow": "Nosso padroeiro",
+    "titleLead": "Santo Antônio",
+    "titleHighlight": "de Pádua",
+    "lead": "Nasceu Fernando, em Lisboa. Tornou-se Antônio, frade franciscano, pregador dos papas e doutor da Igreja. Oito séculos depois, continua sendo um dos santos mais amados do mundo — e o padroeiro de Dois Vizinhos.",
+    "facts": {
+      "born": { "label": "Nascimento", "value": "Lisboa, 1195" },
+      "died": { "label": "Falecimento", "value": "Pádua, 1231" },
+      "feast": { "label": "Festa", "value": "13 de junho" }
+    }
+  },
+  "portrait": {
+    "alt": "Pintura de Francisco de Zurbarán: Santo Antônio ajoelhado, em hábito franciscano, de mãos postas, contempla o Menino Jesus que aparece numa luz dourada; aos seus pés, um livro aberto e lírios brancos",
+    "caption": "Francisco de Zurbarán, “Aparição do Menino Jesus a Santo Antônio de Pádua”, c. 1627–1630. Acervo do MASP, São Paulo. Obra em domínio público.",
+    "source": "Ver fonte"
+  },
+  "marquee": [
+    "Doutor Evangélico",
+    "Martelo dos hereges",
+    "Amigo dos pobres",
+    "Santo de todo o mundo",
+    "Rogai por nós"
+  ],
+  "timeline": {
+    "eyebrow": "Uma vida em dez momentos",
+    "title": "De Lisboa a Pádua.",
+    "lead": "Santo Antônio viveu apenas 36 anos. Foi tempo suficiente para mudar de nome, de ordem, de país — e marcar a história da Igreja.",
+    "items": [
+      {
+        "year": "1195",
+        "title": "Nasce Fernando, em Lisboa",
+        "description": "Segundo a tradição, Fernando de Bulhões nasce em 15 de agosto, numa família nobre, perto da catedral de Lisboa."
+      },
+      {
+        "year": "1210",
+        "title": "A vida religiosa começa cedo",
+        "description": "Aos 15 anos entra para os Cônegos Regrantes de Santo Agostinho. No Mosteiro de Santa Cruz, em Coimbra, dedica-se ao estudo profundo das Escrituras."
+      },
+      {
+        "year": "1220",
+        "title": "Torna-se franciscano",
+        "description": "Comovido pelos primeiros mártires franciscanos, mortos no Marrocos, troca o hábito agostiniano pelo de São Francisco e passa a se chamar Antônio."
+      },
+      {
+        "year": "1221",
+        "title": "O naufrágio e o encontro com Francisco",
+        "description": "Parte em missão para a África, adoece e, na volta, uma tempestade leva o navio à Sicília. Em Assis, participa do Capítulo das Esteiras, ao lado de São Francisco."
+      },
+      {
+        "year": "1222",
+        "title": "O pregador revelado",
+        "description": "Em Forlì, convidado de última hora a pregar numa ordenação, surpreende a todos com sua sabedoria. Começa ali uma intensa missão pela Itália e pela França."
+      },
+      {
+        "year": "1224",
+        "title": "Primeiro mestre de teologia",
+        "description": "São Francisco o autoriza a ensinar teologia aos frades, desde que o estudo não apague o espírito de oração e devoção."
+      },
+      {
+        "year": "1231",
+        "title": "“Vejo o meu Senhor”",
+        "description": "Doente e exausto, morre em 13 de junho em Arcella, perto de Pádua. Diz-se que as crianças da cidade saíram às ruas anunciando: morreu o santo."
+      },
+      {
+        "year": "1232",
+        "title": "Santo em menos de um ano",
+        "description": "Em 30 de maio, o papa Gregório IX o canoniza — uma das canonizações mais rápidas da história da Igreja."
+      },
+      {
+        "year": "1263",
+        "title": "A língua incorrupta",
+        "description": "Ao trasladar seus restos, São Boaventura encontra intacta a língua do grande pregador. A relíquia é venerada até hoje na Basílica de Pádua."
+      },
+      {
+        "year": "1946",
+        "title": "Doutor da Igreja",
+        "description": "O papa Pio XII o proclama Doutor da Igreja, com o título de Doutor Evangélico, pela fidelidade e profundidade com que pregou o Evangelho."
+      }
+    ]
+  },
+  "symbols": {
+    "eyebrow": "Lendo a pintura",
+    "title": "O que cada detalhe quer dizer.",
+    "lead": "A arte cristã ensina com imagens. Na tela de Zurbarán, quatro símbolos contam quem foi Santo Antônio.",
+    "items": {
+      "child": {
+        "title": "O Menino Jesus",
+        "description": "Recorda a visão que o santo teve em oração, quando o Menino lhe apareceu. É sinal da intimidade de Antônio com Cristo."
+      },
+      "book": {
+        "title": "O livro aberto",
+        "description": "São as Sagradas Escrituras, que ele conhecia de cor. Lembra o pregador e o Doutor da Igreja."
+      },
+      "lily": {
+        "title": "Os lírios",
+        "description": "Símbolo da pureza de coração e da vida entregue inteiramente a Deus."
+      },
+      "habit": {
+        "title": "O hábito franciscano",
+        "description": "O tecido simples e o cordão falam de pobreza, humildade e da escolha de seguir Jesus como São Francisco."
+      }
+    }
+  },
+  "devotions": {
+    "eyebrow": "Devoções populares",
+    "title": "Como o povo reza com Santo Antônio.",
+    "lead": "Ao longo dos séculos, a fé simples do povo criou tradições que atravessaram o oceano e chegaram até nós.",
+    "items": {
+      "novena": {
+        "title": "Trezena",
+        "description": "Treze dias de oração, de 1º a 13 de junho, preparam a festa do padroeiro. Em Dois Vizinhos, a trezena se une à quermesse e à grande festa da comunidade."
+      },
+      "bread": {
+        "title": "Pão de Santo Antônio",
+        "description": "Inspirado na caridade do santo com os famintos, o pão abençoado no dia 13 lembra que a fé se prova na partilha com os mais pobres."
+      },
+      "lost": {
+        "title": "Protetor das coisas perdidas",
+        "description": "Conta a tradição que um livro de salmos levado sem permissão foi devolvido depois da oração do santo. Desde então, o povo pede sua ajuda para achar o que se perdeu."
+      },
+      "marriage": {
+        "title": "O santo casamenteiro",
+        "description": "Pela fama de ajudar jovens a formar família, tornou-se o padroeiro dos namorados no Brasil — e junho virou o mês das festas e dos pedidos."
+      }
+    }
+  },
+  "town": {
+    "eyebrow": "Santo Antônio em Dois Vizinhos",
+    "title": "Ele chegou antes da cidade.",
+    "lead": "Em {{arrival}}, os primeiros devotos trouxeram Santo Antônio para uma pequena aldeia no sudoeste do Paraná. Em {{founded}}, a capela da praça central foi elevada a paróquia — antes mesmo de Dois Vizinhos ser município.",
+    "quote": "Santo Antônio chegou a Dois Vizinhos antes do primeiro prefeito.",
+    "quoteSource": "Valdir Luiz Pagnoncelli, “História dos 40 anos da Paróquia Santo Antônio de Pádua”",
+    "imageAlt": "Altar da Igreja Matriz Santo Antônio de Pádua, com a grande cruz sob o arco"
+  },
+  "prayer": {
+    "eyebrow": "Oração",
+    "title": "Oração a Santo Antônio",
+    "lines": [
+      "Glorioso Santo Antônio, amigo dos pobres e pregador do Evangelho,",
+      "intercedei por nossa paróquia e por cada família de Dois Vizinhos.",
+      "Ajudai-nos a encontrar o que perdemos e, acima de tudo, a não perder a fé.",
+      "Ensinai-nos a amar a Palavra de Deus e a servir os irmãos com alegria.",
+      "Amém."
+    ],
+    "closing": "Santo Antônio, rogai por nós!"
+  }
+}

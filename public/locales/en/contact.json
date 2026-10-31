@@ -1,0 +1,20 @@
+{
+  "seo": {
+    "title": "Contact",
+    "description": "Get in touch with Saint Anthony of Padua Parish in Dois Vizinhos: WhatsApp, phone, email, address and office hours."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Talk to us.",
+    "lead": "The fastest way is the parish office WhatsApp. We also answer by phone, email and, of course, in person."
+  },
+  "channels": {
+    "whatsapp": { "label": "Parish office WhatsApp", "description": "Scheduling, questions and general information.", "action": "Send a message" },
+    "phone": { "label": "Phone", "description": "Available during office hours.", "action": "Call now" },
+    "email": { "label": "Email", "description": "For matters that need documents or more detail.", "action": "Write an email" },
+    "catechesis": { "label": "Catechesis WhatsApp", "description": "Registration and information about First Communion and Confirmation.", "action": "Talk to catechesis" },
+    "instagram": { "label": "Instagram", "description": "Weekly announcements, photos and community broadcasts.", "action": "Follow the parish" },
+    "youtube": { "label": "Parish channel", "description": "Videos of celebrations, the Trezena and gatherings.", "action": "Watch" }
+  },
+  "office": { "eyebrow": "Hours", "title": "When the office is open" }
+}

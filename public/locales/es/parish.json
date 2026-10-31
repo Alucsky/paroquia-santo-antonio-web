@@ -1,0 +1,39 @@
+{
+  "seo": {
+    "title": "La Parroquia",
+    "description": "La historia de la Parroquia San Antonio de Padua, en Dois Vizinhos (Brasil), la iglesia Matriz, la secretaría parroquial y la Diócesis de Palmas – Francisco Beltrão."
+  },
+  "hero": {
+    "eyebrow": "La Parroquia",
+    "title": "Una historia que comenzó con la fe de quienes llegaron primero.",
+    "lead": "La Parroquia San Antonio de Padua nació junto con Dois Vizinhos. Hoy reúne la iglesia Matriz, comunidades rurales y barrios de la ciudad."
+  },
+  "stats": { "years": "años de parroquia", "communities": "comunidades y barrios", "ministries": "pastorales y movimientos" },
+  "history": {
+    "eyebrow": "Nuestra historia",
+    "title": "Antes de la ciudad, la fe.",
+    "lead": "Los primeros pobladores llegaron a una tierra de selva cerrada trayendo poca cosa — y la devoción a San Antonio.",
+    "milestones": [
+      { "year": "1956", "text": "Los primeros devotos de San Antonio llegan a la pequeña aldea que luego se convertiría en Dois Vizinhos." },
+      { "year": "1959", "text": "La capilla de la antigua Plaza Ademar da Costa Machado, hoy Plaza Ari Jaime Muller, es elevada a Parroquia San Antonio de Padua." },
+      { "year": "1949–1999", "text": "El campo y los barrios de la ciudad acogen a sus patronos y forman las comunidades que hoy componen la parroquia." },
+      { "year": "Hoy", "text": "La parroquia sigue viva en comunidades, pastorales y movimientos, como parte de la Diócesis de Palmas – Francisco Beltrão." }
+    ],
+    "source": "Fuente: libro “Historia de los 40 años de la Parroquia San Antonio de Padua”, de Valdir Luiz Pagnoncelli.",
+    "imageAlt": "Interior de la iglesia Matriz lleno de fieles, bajo el techo de arcos de madera, con la cruz al fondo"
+  },
+  "matrix": {
+    "eyebrow": "Iglesia Matriz",
+    "title": "La casa de la comunidad.",
+    "lead": "En el centro de Dois Vizinhos, la Matriz reúne a la parroquia para la Eucaristía, las fiestas del patrono, los sacramentos y la vida pastoral.",
+    "images": ["Altar de la Matriz preparado para la celebración", "Fachada de la Matriz durante la fiesta de San Antonio"]
+  },
+  "office": {
+    "eyebrow": "Secretaría parroquial",
+    "title": "Estamos aquí para atenderte.",
+    "lead": "Bautizos, bodas, documentos, intenciones de misa y conversaciones con los sacerdotes."
+  },
+  "diocese": {
+    "description": "La parroquia forma parte de la Diócesis de Palmas – Francisco Beltrão, en la Regional Sur II de la Conferencia Episcopal de Brasil, que reúne las parroquias del suroeste de Paraná."
+  }
+}

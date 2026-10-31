@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Sacramentos",
+    "description": "Cómo agendar bautizo y boda en la Parroquia San Antonio de Padua, en Dois Vizinhos: fechas, preparación y documentos necesarios."
+  },
+  "hero": {
+    "eyebrow": "Sacramentos",
+    "title": "Los momentos más importantes de tu vida de fe.",
+    "lead": "Fechas, preparación y documentos necesarios, explicados de forma sencilla. Marca cada ítem de la lista a medida que lo reúnas."
+  },
+  "checklist": {
+    "title": "Documentos necesarios",
+    "progress": "{{done}} de {{total}}",
+    "progressLabel": "Documentos reunidos",
+    "hint": "La lista solo sirve para organizarte. Lleva los documentos a la secretaría parroquial."
+  },
+  "baptism": {
+    "eyebrow": "Bautismo",
+    "title": "Bautizo",
+    "lead": "El primer sacramento, puerta de entrada a la vida cristiana. Padres y padrinos participan en encuentros de preparación antes de la celebración.",
+    "schedule": [
+      { "label": "Cuándo", "value": "Cada 4º sábado del mes" },
+      { "label": "Horario", "value": "9 h, en la iglesia Matriz" }
+    ],
+    "documents": [
+      "Acta de nacimiento del niño",
+      "Cuaderno de encuentros de preparación al bautismo",
+      "Comprobante del diezmo al día de padres y padrinos",
+      "Comprobante de participación de los padrinos en la preparación",
+      "Acta de matrimonio religioso de los padres y/o padrinos"
+    ],
+    "notes": [
+      "Padres o padrinos de otra parroquia deben traer una autorización firmada por su párroco.",
+      "Contacta a la secretaría con anticipación para agendar la fecha y los encuentros."
+    ],
+    "action": "Agendar por WhatsApp",
+    "whatsappMessage": "¡Hola! Quisiera información para agendar un bautizo."
+  },
+  "marriage": {
+    "eyebrow": "Matrimonio",
+    "title": "Boda",
+    "lead": "El sacramento que une a la pareja ante Dios y la comunidad. Los novios hacen la catequesis matrimonial y entregan los documentos con anticipación.",
+    "schedule": [
+      { "label": "Celebraciones", "value": "Sábados, 17 h y 20 h" },
+      { "label": "Convalidación", "value": "Miércoles, 19 h" },
+      { "label": "Anticipación", "value": "Inscribirse 60 días antes" }
+    ],
+    "documents": [
+      "Fe de bautismo y de confirmación de los novios",
+      "Comprobante del diezmo al día de los novios",
+      "Certificado de la catequesis matrimonial",
+      "Declaración del matrimonio civil",
+      "Copia del documento de identidad y CPF de los novios",
+      "Comprobante de domicilio de los novios",
+      "Nombre de dos parejas de testigos",
+      "Comprobante de domicilio de los testigos",
+      "Copia del documento de identidad y CPF de los padrinos",
+      "Comprobante de matrimonio religioso de los padrinos"
+    ],
+    "notes": [
+      "Otros días y horarios pueden conversarse directamente con los sacerdotes.",
+      "La convalidación es la celebración religiosa para parejas que ya viven juntas o están casadas solo por lo civil."
+    ],
+    "action": "Consultar sobre la boda",
+    "whatsappMessage": "¡Hola! Quisiera información sobre casarme en la parroquia."
+  },
+  "others": {
+    "eyebrow": "Otros sacramentos",
+    "title": "También te acompañamos en estos momentos.",
+    "lead": "La Primera Comunión y la Confirmación se preparan en la catequesis. Para la confesión y la unción de los enfermos, busca a los sacerdotes.",
+    "items": {
+      "eucharist": { "title": "Primera Comunión", "description": "Preparación en la catequesis parroquial, con grupos para niños y adolescentes.", "action": "WhatsApp de la catequesis" },
+      "confirmation": { "title": "Confirmación", "description": "Confirmación de la fe para adolescentes, jóvenes y adultos, con inscripción en la catequesis.", "action": "WhatsApp de la catequesis" },
+      "confession": { "title": "Confesión", "description": "Los sacerdotes atienden los miércoles. En Cuaresma y Adviento hay jornadas especiales de confesión.", "action": "Acordar un horario" },
+      "anointing": { "title": "Unción de los enfermos", "description": "Para enfermos y ancianos. En caso de urgencia, contacta a la secretaría para llamar a un sacerdote.", "action": "Hablar con la secretaría" }
+    }
+  }
+}

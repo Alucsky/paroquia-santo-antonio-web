@@ -1,0 +1,82 @@
+{
+  "seo": {
+    "title": "Saint Anthony of Padua",
+    "description": "The life of Saint Anthony of Padua, patron of the parish of Dois Vizinhos: from Lisbon to Padua, his preaching, miracles, devotions and how he came to our town."
+  },
+  "hero": {
+    "eyebrow": "Our patron saint",
+    "titleLead": "Saint Anthony",
+    "titleHighlight": "of Padua",
+    "lead": "Born Fernando in Lisbon, he became Anthony — Franciscan friar, preacher to popes and Doctor of the Church. Eight centuries later he remains one of the world's most beloved saints, and the patron of Dois Vizinhos.",
+    "facts": {
+      "born": { "label": "Born", "value": "Lisbon, 1195" },
+      "died": { "label": "Died", "value": "Padua, 1231" },
+      "feast": { "label": "Feast day", "value": "June 13" }
+    }
+  },
+  "portrait": {
+    "alt": "Painting by Francisco de Zurbarán: Saint Anthony kneeling in a Franciscan habit, hands joined, contemplates the Child Jesus appearing in golden light; at his feet, an open book and white lilies",
+    "caption": "Francisco de Zurbarán, “Apparition of the Child Jesus to Saint Anthony of Padua”, c. 1627–1630. São Paulo Museum of Art (MASP). Public domain.",
+    "source": "View source"
+  },
+  "marquee": ["Evangelical Doctor", "Hammer of heretics", "Friend of the poor", "Saint of the whole world", "Pray for us"],
+  "timeline": {
+    "eyebrow": "A life in ten moments",
+    "title": "From Lisbon to Padua.",
+    "lead": "Saint Anthony lived only 36 years. It was enough time to change his name, his order and his country — and to leave his mark on the history of the Church.",
+    "items": [
+      { "year": "1195", "title": "Fernando is born in Lisbon", "description": "According to tradition, Fernando de Bulhões is born on August 15 into a noble family near Lisbon Cathedral." },
+      { "year": "1210", "title": "An early religious life", "description": "At 15 he joins the Canons Regular of Saint Augustine. At the Monastery of Santa Cruz in Coimbra he devotes himself to deep study of the Scriptures." },
+      { "year": "1220", "title": "He becomes a Franciscan", "description": "Moved by the first Franciscan martyrs, killed in Morocco, he exchanges the Augustinian habit for that of Saint Francis and takes the name Anthony." },
+      { "year": "1221", "title": "Shipwreck and meeting Francis", "description": "He sets out on mission to Africa, falls ill and, on the way back, a storm drives his ship to Sicily. In Assisi he attends the Chapter of Mats alongside Saint Francis." },
+      { "year": "1222", "title": "The preacher revealed", "description": "In Forlì, asked at the last minute to preach at an ordination, he astonishes everyone with his wisdom. An intense mission across Italy and France begins." },
+      { "year": "1224", "title": "First teacher of theology", "description": "Saint Francis allows him to teach theology to the friars, provided study does not extinguish the spirit of prayer and devotion." },
+      { "year": "1231", "title": "“I see my Lord”", "description": "Ill and exhausted, he dies on June 13 at Arcella, near Padua. It is said the city's children ran through the streets crying: the saint is dead." },
+      { "year": "1232", "title": "A saint in less than a year", "description": "On May 30, Pope Gregory IX canonizes him — one of the fastest canonizations in Church history." },
+      { "year": "1263", "title": "The incorrupt tongue", "description": "When his remains are transferred, Saint Bonaventure finds the great preacher's tongue intact. The relic is venerated to this day in the Basilica of Padua." },
+      { "year": "1946", "title": "Doctor of the Church", "description": "Pope Pius XII proclaims him Doctor of the Church, with the title Evangelical Doctor, for the faithfulness and depth of his preaching." }
+    ]
+  },
+  "symbols": {
+    "eyebrow": "Reading the painting",
+    "title": "What each detail means.",
+    "lead": "Christian art teaches through images. In Zurbarán's canvas, four symbols tell us who Saint Anthony was.",
+    "items": {
+      "child": { "title": "The Child Jesus", "description": "Recalls the vision the saint had in prayer, when the Child appeared to him. A sign of Anthony's intimacy with Christ." },
+      "book": { "title": "The open book", "description": "The Holy Scriptures, which he knew by heart. It recalls the preacher and Doctor of the Church." },
+      "lily": { "title": "The lilies", "description": "A symbol of purity of heart and a life given entirely to God." },
+      "habit": { "title": "The Franciscan habit", "description": "The simple cloth and cord speak of poverty, humility and the choice to follow Jesus like Saint Francis." }
+    }
+  },
+  "devotions": {
+    "eyebrow": "Popular devotions",
+    "title": "How people pray with Saint Anthony.",
+    "lead": "Over the centuries, the simple faith of the people created traditions that crossed the ocean and reached us.",
+    "items": {
+      "novena": { "title": "The Trezena", "description": "Thirteen days of prayer, from June 1 to 13, prepare for the patron's feast. In Dois Vizinhos it comes together with the parish fair and a big community celebration." },
+      "bread": { "title": "Saint Anthony's Bread", "description": "Inspired by the saint's charity toward the hungry, bread blessed on the 13th reminds us that faith is proven by sharing with the poor." },
+      "lost": { "title": "Finder of lost things", "description": "Tradition says a psalter taken without permission was returned after the saint prayed. Ever since, people ask his help to find what was lost." },
+      "marriage": { "title": "The matchmaker saint", "description": "Known for helping young people start families, he became the patron of couples in Brazil — and June became the month of festivals and petitions." }
+    }
+  },
+  "town": {
+    "eyebrow": "Saint Anthony in Dois Vizinhos",
+    "title": "He arrived before the town.",
+    "lead": "In {{arrival}}, the first devotees brought Saint Anthony to a small village in southwestern Paraná. In {{founded}}, the chapel on the main square became a parish — even before Dois Vizinhos was a municipality.",
+    "quote": "Saint Anthony arrived in Dois Vizinhos before the first mayor.",
+    "quoteSource": "Valdir Luiz Pagnoncelli, “History of the 40 years of Saint Anthony of Padua Parish”",
+    "imageAlt": "Altar of the main church of Saint Anthony of Padua, with the great cross beneath the arch"
+  },
+  "prayer": {
+    "eyebrow": "Prayer",
+    "title": "Prayer to Saint Anthony",
+    "lines": [
+      "Glorious Saint Anthony, friend of the poor and preacher of the Gospel,",
+      "intercede for our parish and for every family in Dois Vizinhos.",
+      "Help us find what we have lost and, above all, never to lose our faith.",
+      "Teach us to love the Word of God and to serve others with joy.",
+      "Amen."
+    ],
+    "closing": "Saint Anthony, pray for us!"
+  }
+}

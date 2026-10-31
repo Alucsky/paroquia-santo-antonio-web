@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Contato",
+    "description": "Fale com a Paróquia Santo Antônio de Pádua, em Dois Vizinhos: WhatsApp, telefone, e-mail, endereço e horários da secretaria."
+  },
+  "hero": {
+    "eyebrow": "Contato",
+    "title": "Fale com a gente.",
+    "lead": "O jeito mais rápido é pelo WhatsApp da secretaria. Mas também atendemos por telefone, e-mail e, claro, pessoalmente."
+  },
+  "channels": {
+    "whatsapp": {
+      "label": "WhatsApp da secretaria",
+      "description": "Agendamentos, dúvidas e informações gerais.",
+      "action": "Enviar mensagem"
+    },
+    "phone": {
+      "label": "Telefone",
+      "description": "Atendimento em horário de secretaria.",
+      "action": "Ligar agora"
+    },
+    "email": {
+      "label": "E-mail",
+      "description": "Para assuntos que precisam de documentos ou mais detalhes.",
+      "action": "Escrever e-mail"
+    },
+    "catechesis": {
+      "label": "WhatsApp da catequese",
+      "description": "Inscrições e informações sobre Primeira Eucaristia e Crisma.",
+      "action": "Falar com a catequese"
+    },
+    "instagram": {
+      "label": "Instagram",
+      "description": "Avisos da semana, fotos e transmissões da comunidade.",
+      "action": "Seguir a paróquia"
+    },
+    "youtube": {
+      "label": "Canal da paróquia",
+      "description": "Vídeos das celebrações, da trezena e dos encontros.",
+      "action": "Assistir"
+    }
+  },
+  "office": {
+    "eyebrow": "Horários",
+    "title": "Quando estamos na secretaria"
+  }
+}

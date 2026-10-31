@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Santo Antônio",
+    "place": "Dois Vizinhos · PR",
+    "fullName": "Saint Anthony of Padua Parish",
+    "homeLabel": "Saint Anthony of Padua Parish, home page"
+  },
+  "skipToContent": "Skip to content",
+  "navigation": {
+    "home": "Home",
+    "schedule": "Mass times",
+    "sacraments": "Sacraments",
+    "saint": "Saint Anthony",
+    "communities": "Communities",
+    "ministries": "Ministries",
+    "parish": "The Parish",
+    "contact": "Contact"
+  },
+  "menu": {
+    "open": "Open menu",
+    "close": "Close menu",
+    "label": "Main navigation"
+  },
+  "language": {
+    "label": "Language",
+    "names": {
+      "pt": "Português",
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "actions": {
+    "whatsappSecretary": "Message the parish office"
+  },
+  "quickBar": {
+    "label": "Shortcuts",
+    "schedule": "Mass times",
+    "whatsapp": "WhatsApp",
+    "directions": "Directions"
+  },
+  "footer": {
+    "tagline": "Catholic community of Dois Vizinhos, in southwestern Paraná, Brazil. United in faith, charity and devotion to Saint Anthony since 1959.",
+    "instagram": "Parish Instagram",
+    "youtube": "Parish YouTube channel",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "usefulLinks": "Useful links",
+    "rights": "All rights reserved.",
+    "developedBy": "Developed by"
+  },
+  "externalLinks": {
+    "liturgy": "Daily readings (CNBB)",
+    "bible": "Catholic Bible online",
+    "saintOfTheDay": "Saint of the day",
+    "diocese": "Diocesan curia",
+    "vatican": "Holy See"
+  },
+  "upcoming": {
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "celebrations": {
+    "sunday-morning-mass": {
+      "title": "Sunday Mass"
+    },
+    "sunday-evening-mass": {
+      "title": "Sunday Mass"
+    },
+    "health-mass": {
+      "title": "Mass for the Sick"
+    },
+    "sacred-heart-mass": {
+      "title": "Sacred Heart of Jesus Mass"
+    },
+    "eucharistic-adoration": {
+      "title": "Eucharistic Adoration"
+    }
+  },
+  "weekly": {
+    "noMass": "No Mass at the main church"
+  },
+  "officeHours": {
+    "secretary": "Parish office",
+    "priests": "Meet the priests",
+    "morning": "Morning",
+    "afternoon": "Afternoon"
+  },
+  "visit": {
+    "eyebrow": "Come visit",
+    "title": "The main church sits in the heart of Dois Vizinhos. Our doors are open to you.",
+    "googleMaps": "Open in Google Maps",
+    "waze": "Go with Waze",
+    "call": "Call"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you were looking for doesn't exist or has moved. Just as Saint Anthony helps find what was lost, we'll take you back.",
+    "action": "Back to home"
+  },
+  "serverError": {
+    "title": "Something went wrong",
+    "description": "We had a problem opening this page. Please try again in a moment."
+  }
+}

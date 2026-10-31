@@ -1,0 +1,97 @@
+{
+  "seo": {
+    "description": "Saint Anthony of Padua Parish in Dois Vizinhos, Brazil: Mass times, sacraments, communities, ministries and the story of our patron saint."
+  },
+  "hero": {
+    "eyebrow": "Dois Vizinhos · Paraná · since {{year}}",
+    "titleLead": "Saint Anthony",
+    "titleHighlight": "of Padua Parish",
+    "lead": "A community of faith that celebrates, welcomes and serves. Here you'll find Mass times, the sacraments and the way to become part of it.",
+    "primaryAction": "See Mass times",
+    "secondaryAction": "Directions",
+    "imageAlt": "Aerial view of Saint Anthony of Padua church, with its red arched roof, lace-like facade and the bell tower with a cross, in the center of Dois Vizinhos",
+    "mobileImageAlt": "Interior of the main church full of worshippers, with the wooden central aisle leading to the altar and the large cross",
+    "upcomingTitle": "Upcoming celebrations",
+    "upcomingPlace": "Main church",
+    "fullSchedule": "See all times"
+  },
+  "marquee": [
+    "Saint Anthony, pray for us",
+    "Faith that welcomes",
+    "A community that serves",
+    "A Word that transforms",
+    "In Dois Vizinhos since 1959"
+  ],
+  "quickActions": {
+    "eyebrow": "What are you looking for",
+    "title": "Everything you need, one tap away.",
+    "lead": "The most requested topics at the parish office, organized so you can sort them out quickly on your phone.",
+    "items": {
+      "schedule": {
+        "title": "Mass times",
+        "description": "Weekly Masses, monthly celebrations and Eucharistic adoration."
+      },
+      "baptism": {
+        "title": "Baptism",
+        "description": "Dates, preparation and the document checklist for parents and godparents."
+      },
+      "wedding": {
+        "title": "Wedding",
+        "description": "Ceremony times, deadlines and documents for the couple."
+      },
+      "secretary": {
+        "title": "Parish office",
+        "description": "Talk directly to the parish office on WhatsApp."
+      }
+    }
+  },
+  "patron": {
+    "eyebrow": "Our patron saint",
+    "title": "Saint Anthony of Padua, the saint of the whole world.",
+    "lead": "Tireless preacher, Doctor of the Church and friend of the poor. He arrived in Dois Vizinhos with the first settlers and still gives our parish its name and soul.",
+    "quote": "Let words cease, and let deeds speak.",
+    "quoteSource": "Saint Anthony, Sermons",
+    "action": "Discover his story",
+    "imageAlt": "Painting of Saint Anthony of Padua kneeling in a Franciscan habit, looking up at the Child Jesus appearing in the light"
+  },
+  "weekly": {
+    "eyebrow": "A week at the main church",
+    "title": "Mass times",
+    "lead": "Regular celebrations at the main church. On holidays and feast days times may change — follow the announcements."
+  },
+  "community": {
+    "eyebrow": "A living Church",
+    "title": "One parish made of many communities.",
+    "lead": "From the countryside to the city neighborhoods, each community welcomed its patron saint and keeps the faith alive. Our ministries and movements carry that faith into everyday life.",
+    "communitiesAction": "Meet the communities",
+    "ministriesAction": "See ministries",
+    "stats": {
+      "communities": {
+        "title": "Rural communities",
+        "description": "Chapels across the countryside of Dois Vizinhos."
+      },
+      "neighborhoods": {
+        "title": "City neighborhoods",
+        "description": "Urban communities with their own patron and life."
+      },
+      "ministries": {
+        "title": "Ministries and movements",
+        "description": "Groups serving in liturgy, formation and charity."
+      }
+    },
+    "more": "+ {{count}} communities"
+  },
+  "gallery": {
+    "eyebrow": "Parish life",
+    "title": "Moments that tell our story.",
+    "lead": "Celebrations, sacraments and gatherings that bring the community together throughout the year.",
+    "items": {
+      "choir": "Choir gathered before the altar of the main church",
+      "baptism": "Baptism celebration",
+      "patronFeast": "Priests at the patron saint's feast",
+      "confirmation": "Confirmation celebration",
+      "missionaryChildhood": "Missionary Childhood gathering",
+      "ministers": "Ministers gathered for formation"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "seo": {
+    "title": "Pastorales y movimientos",
+    "description": "Conoce las pastorales y movimientos de la Parroquia San Antonio de Padua, en Dois Vizinhos, y descubre dónde puedes servir."
+  },
+  "hero": {
+    "eyebrow": "Pastorales y movimientos",
+    "title": "{{count}} maneras de servir.",
+    "lead": "Toda persona tiene un don para poner al servicio de la comunidad. Conoce los grupos que hacen vivir la parroquia."
+  },
+  "groups": {
+    "liturgy": {
+      "title": "Liturgia y oración",
+      "description": "Quienes sirven en el altar y sostienen a la comunidad con la oración."
+    },
+    "formation": {
+      "title": "Formación y juventud",
+      "description": "Quienes enseñan, forman y acompañan a las nuevas generaciones."
+    },
+    "family": {
+      "title": "Familia",
+      "description": "Quienes cuidan de la Iglesia doméstica, en las casas y los hogares."
+    },
+    "charity": {
+      "title": "Acción social y caridad",
+      "description": "Quienes llevan la fe a donde hay necesidad."
+    },
+    "movements": {
+      "title": "Movimientos",
+      "description": "Caminos de espiritualidad que renuevan la vida cristiana."
+    }
+  },
+  "items": {
+    "liturgy": {
+      "title": "Liturgia",
+      "description": "Prepara y anima las celebraciones: lecturas, preces, acogida y el cuidado de cada detalle del altar."
+    },
+    "music": {
+      "title": "Cantos",
+      "description": "Ministerios de música que ayudan a la asamblea a rezar cantando en las misas y celebraciones."
+    },
+    "altar-servers": {
+      "title": "Monaguillos",
+      "description": "Niños y adolescentes que sirven en el altar y aprenden, de cerca, a amar la Eucaristía."
+    },
+    "extraordinary-ministers": {
+      "title": "Ministros de la Comunión (MACs)",
+      "description": "Laicos que ayudan a distribuir la comunión en la misa y la llevan a enfermos y ancianos en sus casas."
+    },
+    "apostleship-of-prayer": {
+      "title": "Apostolado de la Oración",
+      "description": "Red de oración unida al Sagrado Corazón de Jesús, que reza por las intenciones del Papa y de la Iglesia."
+    },
+    "catechesis": {
+      "title": "Catequesis",
+      "description": "Acompaña a niños, jóvenes y adultos en la iniciación cristiana, hacia la Eucaristía y la Confirmación."
+    },
+    "youth": {
+      "title": "Adolescentes y jóvenes",
+      "description": "Dos grupos animan a la juventud parroquial: RAJOV, de adolescentes, y Opção de Vida, de jóvenes."
+    },
+    "youth-retreat": {
+      "title": "Retiro de adolescentes y jóvenes",
+      "description": "Encuentros de fin de semana que ayudan a adolescentes y jóvenes a vivir una experiencia personal con Cristo."
+    },
+    "pastoral-council": {
+      "title": "Consejo de Pastoral",
+      "description": "Reúne a los líderes de comunidades y pastorales para planificar y evaluar el camino de la parroquia."
+    },
+    "family": {
+      "title": "Pastoral Familiar",
+      "description": "Cuida a las familias en todas sus etapas: preparación al matrimonio, parejas, padres y situaciones difíciles."
+    },
+    "family-groups": {
+      "title": "Grupos de familia",
+      "description": "Familias vecinas que se reúnen en las casas para rezar y reflexionar la Palabra de Dios."
+    },
+    "pilgrim-chapel": {
+      "title": "Capillita",
+      "description": "La imagen de la Virgen visita los hogares, llevando oración y unión a las familias."
+    },
+    "children": {
+      "title": "Pastoral del Niño",
+      "description": "Acompaña a embarazadas y niños pequeños, con foco en salud, nutrición y cuidado en familia."
+    },
+    "elderly": {
+      "title": "Pastoral de la Persona Mayor",
+      "description": "Visita y valora a los mayores, promoviendo su dignidad, salud y participación en la comunidad."
+    },
+    "prison": {
+      "title": "Pastoral Carcelaria",
+      "description": "Presencia de la Iglesia junto a las personas privadas de libertad y sus familias, con escucha y evangelización."
+    },
+    "tithe": {
+      "title": "Pastoral del Diezmo",
+      "description": "Ayuda a la comunidad a vivir el diezmo como gesto de gratitud y de compartir que sostiene la misión."
+    },
+    "charismatic-renewal": {
+      "title": "Renovación Carismática",
+      "description": "Grupos de oración que buscan una vida nueva en el Espíritu Santo, con alabanza, Palabra y compartir."
+    },
+    "cursillo": {
+      "title": "Movimiento de Cursillos",
+      "description": "Encuentros que forman laicos cristianos para vivir y anunciar la fe en el trabajo, la familia y la sociedad."
+    },
+    "lareira": {
+      "title": "Movimiento Lareirista",
+      "description": "Movimiento de parejas que fortalece la vida matrimonial y familiar a la luz del Evangelio."
+    },
+    "legion-of-mary": {
+      "title": "Legión de María",
+      "description": "Laicos que, bajo la protección de María, rezan juntos y realizan visitas y obras de apostolado."
+    }
+  },
+  "join": {
+    "title": "¿Quieres participar en una pastoral?",
+    "description": "Escribe a la secretaría y cuéntanos qué mueve tu corazón. Te ponemos en contacto con la coordinación.",
+    "action": "Quiero participar",
+    "whatsappMessage": "¡Hola! Me gustaría participar en una pastoral de la parroquia."
+  }
+}

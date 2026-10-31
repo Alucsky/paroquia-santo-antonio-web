@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Santo Antônio",
+    "place": "Dois Vizinhos · PR",
+    "fullName": "Paróquia Santo Antônio de Pádua",
+    "homeLabel": "Paróquia Santo Antônio de Pádua, página inicial"
+  },
+  "skipToContent": "Pular para o conteúdo",
+  "navigation": {
+    "home": "Início",
+    "schedule": "Horários",
+    "sacraments": "Sacramentos",
+    "saint": "Santo Antônio",
+    "communities": "Comunidades",
+    "ministries": "Pastorais",
+    "parish": "A Paróquia",
+    "contact": "Contato"
+  },
+  "menu": {
+    "open": "Abrir menu",
+    "close": "Fechar menu",
+    "label": "Navegação principal"
+  },
+  "language": {
+    "label": "Idioma",
+    "names": {
+      "pt": "Português",
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "actions": {
+    "whatsappSecretary": "Falar com a secretaria"
+  },
+  "quickBar": {
+    "label": "Atalhos",
+    "schedule": "Horários",
+    "whatsapp": "WhatsApp",
+    "directions": "Como chegar"
+  },
+  "footer": {
+    "tagline": "Comunidade católica de Dois Vizinhos, no sudoeste do Paraná. Unidos na fé, na caridade e na devoção a Santo Antônio desde 1959.",
+    "instagram": "Instagram da paróquia",
+    "youtube": "Canal da paróquia no YouTube",
+    "navigation": "Navegação",
+    "contact": "Contato",
+    "usefulLinks": "Links úteis",
+    "rights": "Todos os direitos reservados.",
+    "developedBy": "Desenvolvido por"
+  },
+  "externalLinks": {
+    "liturgy": "Liturgia Diária (CNBB)",
+    "bible": "Bíblia Católica Online",
+    "saintOfTheDay": "Santo do Dia",
+    "diocese": "Cúria Diocesana",
+    "vatican": "Santa Sé"
+  },
+  "upcoming": {
+    "today": "Hoje",
+    "tomorrow": "Amanhã"
+  },
+  "celebrations": {
+    "sunday-morning-mass": {
+      "title": "Missa dominical"
+    },
+    "sunday-evening-mass": {
+      "title": "Missa dominical"
+    },
+    "health-mass": {
+      "title": "Missa da Saúde"
+    },
+    "sacred-heart-mass": {
+      "title": "Missa do Sagrado Coração de Jesus"
+    },
+    "eucharistic-adoration": {
+      "title": "Adoração ao Santíssimo"
+    }
+  },
+  "weekly": {
+    "noMass": "Sem missa na Matriz"
+  },
+  "officeHours": {
+    "secretary": "Secretaria paroquial",
+    "priests": "Atendimento dos padres",
+    "morning": "Manhã",
+    "afternoon": "Tarde"
+  },
+  "visit": {
+    "eyebrow": "Venha nos visitar",
+    "title": "A Matriz fica no coração de Dois Vizinhos. As portas estão abertas para você.",
+    "googleMaps": "Abrir no Google Maps",
+    "waze": "Ir com o Waze",
+    "call": "Ligar"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O endereço que você procurou não existe ou mudou de lugar. Assim como Santo Antônio ajuda a achar o que se perdeu, a gente te leva de volta.",
+    "action": "Voltar ao início"
+  },
+  "serverError": {
+    "title": "Algo deu errado",
+    "description": "Tivemos um problema ao abrir esta página. Tente novamente em instantes."
+  }
+}

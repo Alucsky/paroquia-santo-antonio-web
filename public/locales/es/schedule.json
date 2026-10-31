@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Horarios de misa",
+    "description": "Horarios de misa de la iglesia Matriz San Antonio de Padua en Dois Vizinhos, celebraciones mensuales, adoración al Santísimo y atención de la secretaría."
+  },
+  "hero": {
+    "eyebrow": "Horarios",
+    "title": "Cuándo celebramos juntos.",
+    "lead": "Las misas de la iglesia Matriz, las celebraciones de cada mes y los horarios de atención de la secretaría y de los sacerdotes."
+  },
+  "upcoming": { "title": "Próximas celebraciones en la Matriz" },
+  "notice": {
+    "title": "Feriados, fiestas y tiempos litúrgicos pueden cambiar los horarios.",
+    "description": "Los avisos de la semana se publican en Instagram {{instagram}}. Ante cualquier duda, escribe a la secretaría por WhatsApp."
+  },
+  "weekly": { "eyebrow": "Cada semana", "title": "Misas en la iglesia Matriz" },
+  "monthly": {
+    "eyebrow": "Cada mes",
+    "title": "Celebraciones mensuales",
+    "items": {
+      "sacred-heart-mass": { "when": "Primer viernes del mes", "description": "Misa en honor al Sagrado Corazón de Jesús, devoción de los primeros viernes." },
+      "eucharistic-adoration": { "when": "Cada día 13", "description": "Adoración al Santísimo Sacramento durante todo el día, desde las 8:30, en el día dedicado a San Antonio." }
+    }
+  },
+  "office": {
+    "eyebrow": "Atención",
+    "title": "Secretaría y sacerdotes",
+    "lead": "Para agendar sacramentos, pedir documentos, encargar intenciones de misa o hablar con un sacerdote."
+  }
+}

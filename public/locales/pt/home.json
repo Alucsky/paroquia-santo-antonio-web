@@ -1,0 +1,97 @@
+{
+  "seo": {
+    "description": "Paróquia Santo Antônio de Pádua, em Dois Vizinhos (PR): horários de missa, sacramentos, comunidades, pastorais e a história do nosso padroeiro."
+  },
+  "hero": {
+    "eyebrow": "Dois Vizinhos · Paraná · desde {{year}}",
+    "titleLead": "Paróquia Santo Antônio",
+    "titleHighlight": "de Pádua",
+    "lead": "Uma comunidade de fé que celebra, acolhe e serve. Aqui você encontra os horários das missas, os sacramentos e o caminho para fazer parte.",
+    "primaryAction": "Ver horários de missa",
+    "secondaryAction": "Como chegar",
+    "imageAlt": "Vista aérea da Igreja Matriz Santo Antônio de Pádua, com o telhado vermelho em arco, a fachada rendada e a torre com a cruz, no centro de Dois Vizinhos",
+    "upcomingTitle": "Próximas celebrações",
+    "upcomingPlace": "Igreja Matriz",
+    "fullSchedule": "Ver todos os horários",
+    "mobileImageAlt": "Interior da Igreja Matriz cheio de fiéis, com o corredor central de madeira levando ao altar e à grande cruz"
+  },
+  "marquee": [
+    "Santo Antônio, rogai por nós",
+    "Fé que acolhe",
+    "Comunidade que serve",
+    "Palavra que transforma",
+    "Desde 1959 em Dois Vizinhos"
+  ],
+  "quickActions": {
+    "eyebrow": "O que você procura",
+    "title": "Tudo o que você precisa, a um toque.",
+    "lead": "Os assuntos mais procurados na secretaria, organizados para você resolver rápido pelo celular.",
+    "items": {
+      "schedule": {
+        "title": "Horários de missa",
+        "description": "Missas da semana, celebrações do mês e adoração ao Santíssimo."
+      },
+      "baptism": {
+        "title": "Batizado",
+        "description": "Datas, preparação e a lista de documentos para pais e padrinhos."
+      },
+      "wedding": {
+        "title": "Casamento",
+        "description": "Horários das celebrações, prazos e documentos dos noivos."
+      },
+      "secretary": {
+        "title": "Secretaria",
+        "description": "Fale direto com a secretaria paroquial pelo WhatsApp."
+      }
+    }
+  },
+  "patron": {
+    "eyebrow": "Nosso padroeiro",
+    "title": "Santo Antônio de Pádua, o santo de todo o mundo.",
+    "lead": "Pregador incansável, doutor da Igreja e amigo dos pobres. Ele chegou a Dois Vizinhos com os primeiros moradores e até hoje dá nome e alma à nossa paróquia.",
+    "quote": "Cessem as palavras, falem as obras.",
+    "quoteSource": "Santo Antônio, Sermões",
+    "action": "Conhecer a história dele",
+    "imageAlt": "Pintura de Santo Antônio de Pádua ajoelhado, em hábito franciscano, olhando para o Menino Jesus que aparece na luz"
+  },
+  "weekly": {
+    "eyebrow": "Semana na Matriz",
+    "title": "Horários de missa",
+    "lead": "Celebrações fixas da Igreja Matriz. Em feriados e festas os horários podem mudar — acompanhe os avisos."
+  },
+  "community": {
+    "eyebrow": "Igreja viva",
+    "title": "Uma paróquia feita de muitas comunidades.",
+    "lead": "Das linhas do interior aos bairros da cidade, cada comunidade acolheu seu padroeiro e mantém viva a fé. E as pastorais e movimentos levam essa fé para o dia a dia.",
+    "communitiesAction": "Conhecer as comunidades",
+    "ministriesAction": "Ver pastorais",
+    "stats": {
+      "communities": {
+        "title": "Comunidades do interior",
+        "description": "Capelas nas linhas e distritos de Dois Vizinhos."
+      },
+      "neighborhoods": {
+        "title": "Bairros da cidade",
+        "description": "Comunidades urbanas com padroeiro e vida própria."
+      },
+      "ministries": {
+        "title": "Pastorais e movimentos",
+        "description": "Grupos que servem na liturgia, na formação e na caridade."
+      }
+    },
+    "more": "+ {{count}} comunidades"
+  },
+  "gallery": {
+    "eyebrow": "Vida paroquial",
+    "title": "Momentos que contam a nossa história.",
+    "lead": "Celebrações, sacramentos e encontros que reúnem a comunidade ao longo do ano.",
+    "items": {
+      "choir": "Coral reunido diante do altar da Matriz",
+      "baptism": "Celebração de batismo",
+      "patronFeast": "Padres na celebração da festa do padroeiro",
+      "confirmation": "Celebração da Crisma",
+      "missionaryChildhood": "Encontro da Infância e Adolescência Missionária",
+      "ministers": "Ministros reunidos em formação"
+    }
+  }
+}

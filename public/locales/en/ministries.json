@@ -1,0 +1,121 @@
+{
+  "seo": {
+    "title": "Ministries and movements",
+    "description": "Discover the ministries and movements of Saint Anthony of Padua Parish in Dois Vizinhos and find where you can serve."
+  },
+  "hero": {
+    "eyebrow": "Ministries and movements",
+    "title": "{{count}} ways to serve.",
+    "lead": "Everyone has a gift to place at the service of the community. Meet the groups that make the parish happen."
+  },
+  "groups": {
+    "liturgy": {
+      "title": "Liturgy and prayer",
+      "description": "Those who serve at the altar and sustain the community through prayer."
+    },
+    "formation": {
+      "title": "Formation and youth",
+      "description": "Those who teach, form and accompany the new generations."
+    },
+    "family": {
+      "title": "Family",
+      "description": "Those who care for the domestic Church, in homes and households."
+    },
+    "charity": {
+      "title": "Social action and charity",
+      "description": "Those who carry the faith wherever there is need."
+    },
+    "movements": {
+      "title": "Movements",
+      "description": "Spiritual paths that renew Christian life."
+    }
+  },
+  "items": {
+    "liturgy": {
+      "title": "Liturgy",
+      "description": "Prepares and leads the celebrations: readings, prayers, welcome and care for every detail of the altar."
+    },
+    "music": {
+      "title": "Music",
+      "description": "Music ministries that help the assembly pray through song at Masses and celebrations."
+    },
+    "altar-servers": {
+      "title": "Altar servers",
+      "description": "Children and teenagers who serve at the altar and learn, up close, to love the Eucharist."
+    },
+    "extraordinary-ministers": {
+      "title": "Communion ministers (MACs)",
+      "description": "Lay people who help distribute Communion at Mass and bring it to the sick and elderly at home."
+    },
+    "apostleship-of-prayer": {
+      "title": "Apostleship of Prayer",
+      "description": "A prayer network devoted to the Sacred Heart of Jesus, praying for the intentions of the Pope and the Church."
+    },
+    "catechesis": {
+      "title": "Catechesis",
+      "description": "Accompanies children, young people and adults in Christian initiation, toward First Communion and Confirmation."
+    },
+    "youth": {
+      "title": "Teens and youth",
+      "description": "Two groups energize the parish youth: RAJOV, for teenagers, and Opção de Vida, for young adults."
+    },
+    "youth-retreat": {
+      "title": "Teen and youth retreat",
+      "description": "Weekend gatherings that help teens and young people live a personal experience with Christ."
+    },
+    "pastoral-council": {
+      "title": "Pastoral council",
+      "description": "Brings together leaders of communities and ministries to plan and review the parish's journey."
+    },
+    "family": {
+      "title": "Family ministry",
+      "description": "Cares for families at every stage: marriage preparation, couples, parents and difficult situations."
+    },
+    "family-groups": {
+      "title": "Family groups",
+      "description": "Neighboring families who meet in their homes to pray and reflect on the Word of God."
+    },
+    "pilgrim-chapel": {
+      "title": "Pilgrim chapel",
+      "description": "An image of Our Lady visits homes, bringing prayer and unity to families."
+    },
+    "children": {
+      "title": "Children's ministry",
+      "description": "Supports pregnant women and young children, focusing on health, nutrition and care at home."
+    },
+    "elderly": {
+      "title": "Ministry to the elderly",
+      "description": "Visits and values older people, promoting their dignity, health and participation in the community."
+    },
+    "prison": {
+      "title": "Prison ministry",
+      "description": "The Church's presence among people deprived of liberty and their families, through listening and evangelization."
+    },
+    "tithe": {
+      "title": "Tithe ministry",
+      "description": "Helps the community live the tithe as a gesture of gratitude and sharing that sustains the mission."
+    },
+    "charismatic-renewal": {
+      "title": "Charismatic Renewal",
+      "description": "Prayer groups seeking new life in the Holy Spirit through praise, the Word and sharing."
+    },
+    "cursillo": {
+      "title": "Cursillo movement",
+      "description": "Gatherings that form lay Christians to live and proclaim their faith at work, at home and in society."
+    },
+    "lareira": {
+      "title": "Lareira movement",
+      "description": "A couples' movement that strengthens married and family life in the light of the Gospel."
+    },
+    "legion-of-mary": {
+      "title": "Legion of Mary",
+      "description": "Lay people who, under Mary's protection, pray together and carry out visits and works of apostolate."
+    }
+  },
+  "join": {
+    "title": "Would you like to join a ministry?",
+    "description": "Message the parish office and tell us what moves your heart. We'll put you in touch with the coordinators.",
+    "action": "I want to join",
+    "whatsappMessage": "Hello! I'd like to join one of the parish ministries."
+  }
+}

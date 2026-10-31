@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "A Paróquia",
+    "description": "A história da Paróquia Santo Antônio de Pádua, em Dois Vizinhos (PR), a Igreja Matriz, a secretaria paroquial e a Diocese de Palmas – Francisco Beltrão."
+  },
+  "hero": {
+    "eyebrow": "A Paróquia",
+    "title": "Uma história que começou com a fé de quem chegou primeiro.",
+    "lead": "A Paróquia Santo Antônio de Pádua nasceu junto com Dois Vizinhos. Hoje reúne a Igreja Matriz, comunidades do interior e bairros da cidade."
+  },
+  "stats": {
+    "years": "anos de paróquia",
+    "communities": "comunidades e bairros",
+    "ministries": "pastorais e movimentos"
+  },
+  "history": {
+    "eyebrow": "Nossa história",
+    "title": "Antes da cidade, a fé.",
+    "lead": "Os primeiros moradores chegaram a uma terra de mata fechada trazendo pouca coisa — e a devoção a Santo Antônio.",
+    "milestones": [
+      { "year": "1956", "text": "Os primeiros devotos de Santo Antônio chegam à pequena aldeia que mais tarde se tornaria Dois Vizinhos." },
+      { "year": "1959", "text": "A capela da antiga Praça Ademar da Costa Machado, hoje Praça Ari Jaime Muller, é elevada a Paróquia Santo Antônio de Pádua." },
+      { "year": "1949–1999", "text": "As linhas do interior e os bairros da cidade acolhem seus padroeiros e formam as comunidades que hoje compõem a paróquia." },
+      { "year": "Hoje", "text": "A paróquia segue viva em comunidades, pastorais e movimentos, parte da Diocese de Palmas – Francisco Beltrão." }
+    ],
+    "source": "Fonte: livro “História dos 40 anos da Paróquia Santo Antônio de Pádua”, de Valdir Luiz Pagnoncelli.",
+    "imageAlt": "Interior da Igreja Matriz lotado, com fiéis nos bancos e a cruz ao fundo, sob o teto em arcos de madeira"
+  },
+  "matrix": {
+    "eyebrow": "Igreja Matriz",
+    "title": "A casa da comunidade.",
+    "lead": "No centro de Dois Vizinhos, a Matriz reúne a paróquia para a Eucaristia, as festas do padroeiro, os sacramentos e a vida pastoral.",
+    "images": [
+      "Altar da Matriz preparado para a celebração",
+      "Fachada da Matriz durante a festa de Santo Antônio"
+    ]
+  },
+  "office": {
+    "eyebrow": "Secretaria paroquial",
+    "title": "Estamos aqui para te atender.",
+    "lead": "Batizados, casamentos, documentos, intenções de missa e conversas com os padres."
+  },
+  "diocese": {
+    "description": "A paróquia faz parte da Diocese de Palmas – Francisco Beltrão, no Regional Sul II da CNBB, que reúne as paróquias do sudoeste do Paraná."
+  }
+}

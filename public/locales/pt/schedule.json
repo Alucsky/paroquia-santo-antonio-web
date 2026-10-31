@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Horários de missa",
+    "description": "Horários de missa da Igreja Matriz Santo Antônio de Pádua em Dois Vizinhos, celebrações mensais, adoração ao Santíssimo e atendimento da secretaria."
+  },
+  "hero": {
+    "eyebrow": "Horários",
+    "title": "Quando celebramos juntos.",
+    "lead": "As missas da Igreja Matriz, as celebrações de cada mês e os horários de atendimento da secretaria e dos padres."
+  },
+  "upcoming": {
+    "title": "Próximas celebrações na Matriz"
+  },
+  "notice": {
+    "title": "Feriados, festas e tempos litúrgicos podem alterar os horários.",
+    "description": "Os avisos da semana são publicados no Instagram {{instagram}}. Na dúvida, fale com a secretaria pelo WhatsApp."
+  },
+  "weekly": {
+    "eyebrow": "Toda semana",
+    "title": "Missas na Igreja Matriz"
+  },
+  "monthly": {
+    "eyebrow": "Todo mês",
+    "title": "Celebrações mensais",
+    "items": {
+      "sacred-heart-mass": {
+        "when": "Primeira sexta-feira do mês",
+        "description": "Missa em honra ao Sagrado Coração de Jesus, devoção das primeiras sextas-feiras."
+      },
+      "eucharistic-adoration": {
+        "when": "Todo dia 13",
+        "description": "Adoração ao Santíssimo Sacramento o dia inteiro, a partir das 8h30, no dia dedicado a Santo Antônio."
+      }
+    }
+  },
+  "office": {
+    "eyebrow": "Atendimento",
+    "title": "Secretaria e padres",
+    "lead": "Para agendar sacramentos, pedir documentos, marcar intenções de missa ou conversar com um padre."
+  }
+}

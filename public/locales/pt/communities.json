@@ -1,0 +1,128 @@
+{
+  "seo": {
+    "title": "Comunidades e bairros",
+    "description": "As comunidades do interior e os bairros da Paróquia Santo Antônio de Pádua, em Dois Vizinhos: padroeiros, histórias e as famílias que os acolheram."
+  },
+  "hero": {
+    "eyebrow": "Comunidades e bairros",
+    "title": "{{count}} comunidades, uma só família.",
+    "lead": "Cada comunidade tem seu padroeiro, sua capela e sua história. Conheça quando a fé chegou a cada lugar e quem a acolheu."
+  },
+  "kinds": {
+    "community": "Comunidade",
+    "neighborhood": "Bairro"
+  },
+  "patronLabel": "Padroeiro(a)",
+  "arrival": {
+    "year": "Acolheu o padroeiro em {{year}}",
+    "circa": "Acolheu o padroeiro por volta de {{year}}",
+    "decade": "Acolheu o padroeiro na década de {{year}}"
+  },
+  "familiesLabel": "Famílias que acolheram",
+  "showStory": "Ver história",
+  "hideStory": "Ocultar história",
+  "filters": {
+    "label": "Filtrar por tipo",
+    "all": "Todas",
+    "community": "Comunidades",
+    "neighborhood": "Bairros"
+  },
+  "search": {
+    "label": "Buscar comunidade ou padroeiro",
+    "placeholder": "Buscar por nome ou padroeiro"
+  },
+  "results_one": "{{count}} resultado",
+  "results_other": "{{count}} resultados",
+  "empty": "Nenhuma comunidade encontrada. Tente outro nome.",
+  "items": {
+    "sao-jose-do-canoas": {
+      "patron": "São José",
+      "charism": "Carpinteiro humilde e pai adotivo de Jesus, São José é exemplo de homem justo e trabalhador. Por isso tantas famílias se colocam sob a sua proteção."
+    },
+    "santa-terezinha": {
+      "patron": "Santa Teresinha do Menino Jesus",
+      "charism": "Padroeira das missões, Santa Teresinha protege todos os que anunciam o Evangelho pelo mundo. Que ela anime os missionários a nunca desistir."
+    },
+    "sao-judas-tadeu-jacutinga": {
+      "patron": "São Judas Tadeu",
+      "charism": "Um dos santos mais populares, conhecido como o santo das causas impossíveis. Em seus escritos, pedia aos cristãos que guardassem a pureza da fé."
+    },
+    "linha-benetti": {
+      "patron": "Santa Catarina de Alexandria",
+      "charism": "Convertida ao cristianismo, Santa Catarina foi martirizada por não renunciar à fé. É invocada por quem trabalha com rodas, como motoristas e moleiros."
+    },
+    "linha-ibiaca": {
+      "patron": "Nossa Senhora Consolata",
+      "charism": "A devoção à Mãe das Consolações nasceu em Turim, diante de um antigo quadro da Virgem. Desde então, o povo recorre a ela sobretudo nas doenças e no sofrimento."
+    },
+    "sao-luiz": {
+      "patron": "São Luís Gonzaga",
+      "charism": "Nascido em 1568 numa família rica da Itália, escolheu a caridade desde criança. Morreu aos 23 anos cuidando de doentes da peste e é o protetor da juventude."
+    },
+    "volta-grande": {
+      "patron": "São José Operário",
+      "charism": "Homem justo e trabalhador, São José aceitou ser pai de Jesus e esposo de Maria, a Mãe do Salvador. É o modelo de quem santifica o trabalho de cada dia."
+    },
+    "flor-da-serra": {
+      "patron": "Santo Estanislau",
+      "charism": "Bispo e mártir da Polônia, Santo Estanislau deu a vida defendendo o Evangelho e a dignidade do seu povo."
+    },
+    "sao-cristovao": {
+      "patron": "São Cristóvão",
+      "charism": "Protetor dos motoristas e dos agricultores. Muitos devotos vêm pedir a sua bênção para as viagens, o trabalho no campo e o transporte escolar."
+    },
+    "santa-cruz": {
+      "patron": "São Roque",
+      "charism": "Conhecido como o santo bondoso, dividiu sua herança com os pobres e cuidou das vítimas da peste. É também invocado como protetor dos animais."
+    },
+    "sao-bras": {
+      "patron": "São Brás",
+      "charism": "Escolhido pela devoção das famílias pioneiras, São Brás é o protetor da garganta e guarda os lares da comunidade."
+    },
+    "sao-francisco-do-bandeira": {
+      "patron": "São Francisco de Assis",
+      "charism": "Patrono da ecologia, Francisco levou o Evangelho ao pé da letra: viveu a pobreza, amou os pobres e cuidou de toda a criação."
+    },
+    "sao-miguel-do-canoas": {
+      "patron": "São Miguel Arcanjo",
+      "charism": "Príncipe dos anjos e defensor contra o mal, São Miguel protege as famílias e é lembrado como o santo da perseverança."
+    },
+    "santa-luzia-do-bandeira": {
+      "patron": "Santa Luzia",
+      "charism": "Jovem mártir de grande fé, consagrou a vida a Cristo. É a protetora dos olhos e da visão."
+    },
+    "piracema": {
+      "patron": "Padroeira da comunidade",
+      "charism": "Os fiéis receberam a padroeira como uma bênção para todos. Desde a sua chegada, muitos testemunham graças alcançadas por sua intercessão."
+    },
+    "sao-pedro-do-bandeira": {
+      "patron": "São Pedro",
+      "charism": "Pescador que se tornou pescador de homens, foi o primeiro papa da Igreja. É protetor dos pescadores e das viúvas, e sua festa é em 29 de junho."
+    },
+    "vila-canarinho": {
+      "patron": "Nossa Senhora das Graças",
+      "charism": "Mãe de toda a humanidade e serva do Senhor, Maria permanece atenta às necessidades dos seus filhos, como foi atenta a Jesus."
+    },
+    "sao-francisco-de-assis": {
+      "patron": "São Francisco de Assis",
+      "charism": "Francisco conviveu com Santo Antônio e o orientou na vida franciscana. Viveu na simplicidade, amou a criação e teve um carinho especial pelos pobres."
+    },
+    "margarida-galvan": {
+      "patron": "Nossa Senhora de Fátima",
+      "charism": "Em Fátima, Nossa Senhora pediu aos pastorinhos que não tivessem medo e que rezassem o terço todos os dias pela paz no mundo."
+    },
+    "bairro-da-luz": {
+      "patron": "Nossa Senhora da Luz",
+      "charism": "O nome do bairro nasceu da devoção dos moradores a Nossa Senhora da Luz, cuja luz se estende a todos os fiéis da paróquia."
+    },
+    "jardim-da-colina": {
+      "patron": "São José",
+      "charism": "Pai adotivo de Jesus, São José é modelo de chefe de família, de esposo respeitoso e de trabalhador. É também padroeiro da boa morte."
+    },
+    "vitoria": {
+      "patron": "Nossa Senhora das Graças",
+      "charism": "Também chamada Senhora da Medalha Milagrosa. As famílias do bairro atribuem a ela a graça de terem conquistado a casa própria."
+    }
+  },
+  "results_zero": "Nenhum resultado"
+}

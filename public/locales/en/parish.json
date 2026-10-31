@@ -1,0 +1,39 @@
+{
+  "seo": {
+    "title": "The Parish",
+    "description": "The history of Saint Anthony of Padua Parish in Dois Vizinhos, Brazil, the main church, the parish office and the Diocese of Palmas – Francisco Beltrão."
+  },
+  "hero": {
+    "eyebrow": "The Parish",
+    "title": "A story that began with the faith of those who arrived first.",
+    "lead": "Saint Anthony of Padua Parish was born alongside Dois Vizinhos. Today it brings together the main church, rural communities and city neighborhoods."
+  },
+  "stats": { "years": "years as a parish", "communities": "communities and neighborhoods", "ministries": "ministries and movements" },
+  "history": {
+    "eyebrow": "Our history",
+    "title": "Before the town, the faith.",
+    "lead": "The first settlers arrived in a land of dense forest carrying little — and their devotion to Saint Anthony.",
+    "milestones": [
+      { "year": "1956", "text": "The first devotees of Saint Anthony arrive in the small village that would later become Dois Vizinhos." },
+      { "year": "1959", "text": "The chapel on the former Ademar da Costa Machado Square, today Ari Jaime Muller Square, becomes Saint Anthony of Padua Parish." },
+      { "year": "1949–1999", "text": "Rural areas and city neighborhoods welcome their patron saints and form the communities that make up the parish today." },
+      { "year": "Today", "text": "The parish lives on in its communities, ministries and movements, as part of the Diocese of Palmas – Francisco Beltrão." }
+    ],
+    "source": "Source: “History of the 40 years of Saint Anthony of Padua Parish”, by Valdir Luiz Pagnoncelli.",
+    "imageAlt": "Interior of the main church full of worshippers, under the arched wooden ceiling, with the cross at the back"
+  },
+  "matrix": {
+    "eyebrow": "Main church",
+    "title": "The community's home.",
+    "lead": "In the center of Dois Vizinhos, the main church gathers the parish for the Eucharist, the patron's feast, the sacraments and pastoral life.",
+    "images": ["Altar of the main church prepared for Mass", "Facade of the main church during the feast of Saint Anthony"]
+  },
+  "office": {
+    "eyebrow": "Parish office",
+    "title": "We're here to help.",
+    "lead": "Baptisms, weddings, documents, Mass intentions and conversations with the priests."
+  },
+  "diocese": {
+    "description": "The parish belongs to the Diocese of Palmas – Francisco Beltrão, in the South II Region of the Brazilian Bishops' Conference, which gathers the parishes of southwestern Paraná."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "seo": {
+    "title": "Sacramentos",
+    "description": "Como agendar batizado e casamento na Paróquia Santo Antônio de Pádua, em Dois Vizinhos: datas, preparação e lista de documentos."
+  },
+  "hero": {
+    "eyebrow": "Sacramentos",
+    "title": "Os momentos mais importantes da sua vida de fé.",
+    "lead": "Datas, preparação e documentos necessários, explicados de forma simples. Marque cada item da lista conforme for separando."
+  },
+  "checklist": {
+    "title": "Documentos necessários",
+    "progress": "{{done}} de {{total}}",
+    "progressLabel": "Documentos separados",
+    "hint": "A lista serve só para você se organizar. Leve os documentos à secretaria paroquial."
+  },
+  "baptism": {
+    "eyebrow": "Batismo",
+    "title": "Batizado",
+    "lead": "O primeiro sacramento, porta de entrada para a vida cristã. Pais e padrinhos participam de encontros de preparação antes da celebração.",
+    "schedule": [
+      { "label": "Quando", "value": "Todo 4º sábado do mês" },
+      { "label": "Horário", "value": "9h, na Igreja Matriz" }
+    ],
+    "documents": [
+      "Certidão de nascimento da criança",
+      "Livro de encontros de preparação para o batismo",
+      "Comprovante de dízimo atualizado dos pais e padrinhos",
+      "Comprovante de participação dos padrinhos na preparação",
+      "Certidão de casamento religioso dos pais e/ou padrinhos"
+    ],
+    "notes": [
+      "Pais ou padrinhos de outra paróquia devem trazer autorização assinada pelo padre de lá.",
+      "Procure a secretaria com antecedência para agendar a data e os encontros."
+    ],
+    "action": "Agendar pelo WhatsApp",
+    "whatsappMessage": "Olá! Gostaria de informações para agendar um batizado."
+  },
+  "marriage": {
+    "eyebrow": "Matrimônio",
+    "title": "Casamento",
+    "lead": "O sacramento que une o casal diante de Deus e da comunidade. Os noivos fazem a catequese matrimonial e entregam os documentos com antecedência.",
+    "schedule": [
+      { "label": "Celebrações", "value": "Sábados, 17h e 20h" },
+      { "label": "Legitimação", "value": "Quartas-feiras, 19h" },
+      { "label": "Antecedência", "value": "Dar os nomes 60 dias antes" }
+    ],
+    "documents": [
+      "Certidão de batismo e de crisma dos noivos",
+      "Comprovante de dízimo atualizado dos noivos",
+      "Certificado da catequese matrimonial",
+      "Declaração do casamento civil",
+      "Cópia do RG e do CPF dos noivos",
+      "Comprovante de residência dos noivos",
+      "Nome de dois casais de testemunhas",
+      "Comprovante de residência das testemunhas",
+      "Cópia do RG e do CPF dos padrinhos",
+      "Comprovante de casamento religioso dos padrinhos"
+    ],
+    "notes": [
+      "Outros dias e horários podem ser conversados diretamente com os padres.",
+      "Legitimação é a celebração religiosa para casais que já vivem juntos ou são casados só no civil."
+    ],
+    "action": "Falar sobre o casamento",
+    "whatsappMessage": "Olá! Gostaria de informações sobre casamento na paróquia."
+  },
+  "others": {
+    "eyebrow": "Outros sacramentos",
+    "title": "Também estamos com você nestes momentos.",
+    "lead": "Primeira Eucaristia e Crisma acontecem pela catequese. Para confissão e unção dos enfermos, procure os padres.",
+    "items": {
+      "eucharist": {
+        "title": "Primeira Eucaristia",
+        "description": "Preparação feita pela catequese paroquial, com turmas para crianças e adolescentes.",
+        "action": "WhatsApp da catequese"
+      },
+      "confirmation": {
+        "title": "Crisma",
+        "description": "Confirmação da fé para adolescentes, jovens e adultos, com inscrições pela catequese.",
+        "action": "WhatsApp da catequese"
+      },
+      "confession": {
+        "title": "Confissão",
+        "description": "Os padres atendem às quartas-feiras. Em tempos fortes, como Quaresma e Advento, há mutirões de confissão.",
+        "action": "Combinar um horário"
+      },
+      "anointing": {
+        "title": "Unção dos enfermos",
+        "description": "Para doentes e idosos. Em caso de urgência, entre em contato com a secretaria para chamar um padre.",
+        "action": "Falar com a secretaria"
+      }
+    }
+  }
+}
